@@ -32,14 +32,14 @@ hr {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Coolvetica Rg' !Important;
+  font-family: 'Coolvetica Rg' !important;
   color: #552E87 !important;
 }
 
 h4 {
-  font-family: 'Aileron' !Important;
-  font-size: 25px !Important;
-  font-weight: 200 !Important;
+  font-family: 'Aileron' !important;
+  font-size: 25px !important;
+  font-weight: 200 !important;
 }
 
 h6 {
@@ -56,13 +56,13 @@ p, li, ul {
  input, .input-group, .input-group-addon, .input-group {
     background-color: transparent !important;
     border-color: #552E87 !important;
-    font-family: 'Aileron' !Important;
+    font-family: 'Aileron' !important;
 }
 
 .form-control {
    background-color: white !important;
    border-color: #552E87 !important;
-   font-family: 'Aileron' !Important;
+   font-family: 'Aileron' !important;
  }
 
 li {
