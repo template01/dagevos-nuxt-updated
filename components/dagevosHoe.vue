@@ -74,7 +74,7 @@
   <div class="container">
     <div class="row">
 
-      <div class="col-sm-3 beigeBackground">
+      <div class="col-sm-6 blueBackground">
 
         <div class="hidden-sm-down" style="margin-left:-15px;margin-right:-15px;">
           <div class="index-full-cover" :style="{'background-image':'url('+hoeProp.hoe2.right.imgpath+')'}" style="position:absolute; right:0; top:0; height:100%; width:100%;">
@@ -85,7 +85,7 @@
           </div>
         </div>
       </div>
-      <div class="col-sm-9 blueBackground">
+      <div class="col-sm-6 beigeBackground">
         <div class="p-5" style="background-color: transparent; border-color: transparent;">
           <h4 class="mb-5" v-html="hoeProp.tarieven.left.title"></h4>
           <div v-html="hoeProp.tarieven.left.content">

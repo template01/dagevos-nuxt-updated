@@ -137,29 +137,42 @@ export default {
         }
     }
 
+    .navbar .dropdown-menu a, .navbar-nav a{
+      &:hover {
+          text-decoration: none;
+          -webkit-box-shadow: 0 1px 0 0 $purple;
+          -moz-box-shadow: 0 1px 0 0 $purple;
+          box-shadow: 0 1px 0 0 $purple;
+        }
+      &:focus {
+        text-decoration: none;
+      }
+    }
+
+    .navbar .dropdown-toggle {
+      &:hover {
+        box-shadow: none;
+      }
+    }
+
+    .navbar-light .navbar-toggler {
+      border: 0;
+      background: white;
+    }
+
     .dropdown-toggle::after {
-
         content: none;
-
     }
 
     .brand-sm {
         height: 40px;
         width: auto;
     }
-    .dropdown {
-        h4 {
-            &:hover {
-                -webkit-box-shadow: 0 2px 0 0 $purple;
-                -moz-box-shadow: 0 2px 0 0 $purple;
-                box-shadow: 0 2px 0 0 $purple;
-            }
-        }
-    }
 
     .dropdown-menu {
         width: calc(25vw - 38px);
         border-color: white;
+        border-radius: 0;
 
         h5 {
             font-family: 'Aileron' !important;

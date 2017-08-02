@@ -17,10 +17,6 @@ body {
   }
 }
 
-.dropdown-menu a:hover, .dropdown-menu a:active {
-  text-decoration: none !important;
-}
-
 hr {
   border: 0 !important;
   border-bottom: 1px solid #552E87 !important;
@@ -38,7 +34,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h4 {
   font-family: 'Aileron' !important;
-  font-size: 25px !important;
+  font-size: 25px;
   font-weight: 200 !important;
 }
 
@@ -46,37 +42,35 @@ h6 {
   font-size: 120% !important;
 }
 
-p, li, ul {
+p, ul, ol {
   color: #552E87;
+  font-size: 25px;
   letter-spacing: -0.02rem;
   font-family: 'Aileron';
   line-height: 1.4;
+  font-weight: 300;
 }
 
- input, .input-group, .input-group-addon, .input-group {
+ input, .input-group, .input-group-addon {
     background-color: transparent !important;
     border-color: #552E87 !important;
-    font-family: 'Aileron' !important;
+    font-family: 'Aileron';
+    color: #552E87 !important;
 }
 
 .form-control {
    background-color: white !important;
    border-color: #552E87 !important;
    font-family: 'Aileron' !important;
+   color: initial !important;
  }
 
 li {
   margin: 1rem;
 }
 
-p {
-  font-size: 25px;
-  font-weight: 300;
-}
+span {
 
-ol, ul {
-  font-size: 25px;
-  font-weight: 300;
 }
 
 p.smallText {
@@ -187,4 +181,21 @@ a {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+@media (max-width:1300px) and (min-width:1111px) {
+  p, ul, ol {
+    font-size: 20px;
+    /*color: red;*/
+  }
+  .nav-link, #dagevosHeader h4{
+    font-size: 20px;
+  }
+}
+
+@media (max-width:1111px) and (min-width:992px) {
+  .nav-link, #dagevosHeader h4 {
+    font-size: 15px;
+    font-weight: normal;
+  }
 }

@@ -185,7 +185,7 @@
 
           </div>
           <b-button class="mt-2" style="background:transparent; border-color:#552E87;">
-            <a href="/rene">Lees meer over René <i class="fa fa-hand-o-right" aria-hidden="true"></i></a> 
+            <a href="/rene">Lees meer over René <i class="fa fa-hand-o-right" aria-hidden="true"></i></a>
           </b-button>
         </div>
       </div>
@@ -235,8 +235,8 @@
             </b-input-group>
             <br />
 
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisic
+            <p class="smallText">
+              Graag wil ik dat Het Echte Werkt! contact met mij opneemt over het volgende:
             </p>
             <b-input-group>
               <b-form-input textarea placeholder="Bericht" :rows=3></b-form-input>
