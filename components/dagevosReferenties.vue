@@ -1,5 +1,5 @@
 <template>
-<div id="dagevosReferenties" class="container">
+<div id="dagevosReferenties" class="">
 
   <div class="container">
 
@@ -25,7 +25,7 @@
     <div class="row">
 
 
-      <swiper class="beigeBackground" :options="swiperOption" ref="mySwiper" style="margin-left:-15px;margin-right:-15px;">
+      <swiper class="beigeBackground" :options="swiperOption" ref="mySwiper" style="">
         <swiper-slide class="" v-for="(referentie, index) in refsProp.referenties" v-bind:key="index">
           <div class="col-sm-6 float-left">
             <div class="p-5" style="">
@@ -80,7 +80,7 @@
 
   <div class="container" style="">
 
-    <div class="row blueBackground" style="margin-left:-30px;margin-right:-30px;">
+    <div class="row blueBackground" style="">
 
       <div class="col-sm-2 p-4 flexer" v-for="opdrachtgever in opdrachtsProp.opdrachtgevers">
         <img style="max-width:100%;" class="flexerContentCenter" :src="opdrachtgever.imgpath" alt="">
