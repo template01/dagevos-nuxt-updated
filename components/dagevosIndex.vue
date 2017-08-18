@@ -22,10 +22,10 @@
           <div class="">
             <h4 class="mb-5" v-html="indexIndexProp.wat.title"></h4>
             <p class="" v-html="indexIndexProp.wat.blurb"></p>
-            <b-button class="float-right" style="background:transparent; border-color:#552E87;">
-              <a href="/wat">Lees verder over Het Echte Werkt! <i class="fa fa-hand-o-right" aria-hidden="true"></i></a>
-            </b-button>
-            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            <div class="float-right buttonImitate" style="background:transparent; border-color:#552E87;">
+              <nuxt-link to="/wat">Lees verder over Het Echte Werkt! <i class="fa fa-hand-o-right" aria-hidden="true"></i></nuxt-link>
+            </div>
+            <!-- <nuxt-link to="#" class="btn btn-primary">Go somewhere</nuxt-link> -->
           </div>
         </div>
       </div>
@@ -43,7 +43,7 @@
             </div>
             </div>
             <h1 class="card-text" v-html="indexRefsProp.referenties[0].blurb"></h1>
-            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            <!-- <nuxt-link to="#" class="btn btn-primary">Go somewhere</nuxt-link> -->
           </div>
         </div>
       </div>
@@ -73,7 +73,7 @@
           <div v-for="card in indexIndexProp.hoe.cards" class="col-sm-6 p-4">
             <div class="card p-3" style="background:white;">
               <h3 v-html="card.content"></h3>
-              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              <!-- <nuxt-link to="#" class="btn btn-primary">Go somewhere</nuxt-link> -->
             </div>
           </div>
         </div>
@@ -84,9 +84,9 @@
             <div v-html="indexIndexProp.hoe.content">
 
             </div>
-            <b-button class="float-right" style="background:transparent; border-color:#552E87;">
-              <a href="/hoe">Lees verder hoe Het Echte Werkt! <i class="fa fa-hand-o-right" aria-hidden="true"></i></a>
-            </b-button>
+            <div class="float-right buttonImitate" style="background:transparent; border-color:#552E87;">
+              <nuxt-link to="/hoe">Lees verder hoe Het Echte Werkt! <i class="fa fa-hand-o-right" aria-hidden="true"></i></nuxt-link>
+            </div>
           </div>
         </div>
       </div>
@@ -113,7 +113,7 @@
             </div>
             </div>
             <h1 class="card-text" v-html="indexRefsProp.referenties[1].blurb"></h1>
-            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            <!-- <nuxt-link to="#" class="btn btn-primary">Go somewhere</nuxt-link> -->
           </div>
         </div>
       </div>
@@ -134,9 +134,9 @@
             </div>
             <!-- <p class="" v-html="indexOpdrachtsProp.wie.blurb"></p> -->
 
-            <b-button class=" " style="background:transparent; border-color:#552E87;">
-              <a href="/referenties">Lees verder voor wie Het Echte Werkt! <i class="fa fa-hand-o-right" aria-hidden="true"></i></a>
-            </b-button>
+            <div class="buttonImitate" style="background:transparent; border-color:#552E87;">
+              <nuxt-link to="/referenties">Lees verder voor wie Het Echte Werkt! <i class="fa fa-hand-o-right" aria-hidden="true"></i></nuxt-link>
+            </div>
           </div>
         </div>
       </div>
@@ -149,7 +149,7 @@
             </div>
 
           </div>
-          <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+          <!-- <nuxt-link to="#" class="btn btn-primary">Go somewhere</nuxt-link> -->
         </div>
       </div>
     </div>
@@ -164,7 +164,7 @@
             <h4 class="mb-5" v-html="indexIndexProp.rene.title"></h4>
             <h4 class="" v-html="indexIndexProp.rene.blurb"></h4>
 
-            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            <!-- <nuxt-link to="#" class="btn btn-primary">Go somewhere</nuxt-link> -->
           </div>
         </div>
 
@@ -186,9 +186,9 @@
           <div v-html="indexIndexProp.rene.content">
 
           </div>
-          <b-button class="mt-2" style="background:transparent; border-color:#552E87;">
-            <a href="/rene">Lees meer over René <i class="fa fa-hand-o-right" aria-hidden="true"></i></a>
-          </b-button>
+          <div class="mt-2 buttonImitate" style="background:transparent; border-color:#552E87;">
+            <nuxt-link to="/rene">Lees meer over René <i class="fa fa-hand-o-right" aria-hidden="true"></i></nuxt-link>
+          </div>
         </div>
       </div>
     </div>
@@ -247,10 +247,10 @@
             </b-input-group>
             <br />
 
-            <b-button class="float-right" style="background:transparent; border-color:#552E87;">
-              <a href="/about">Stuur!</a>
-            </b-button>
-            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            <div class="float-right buttonImitate" style="background:transparent; border-color:#552E87;">
+              <nuxt-link to="/about">Stuur!</nuxt-link>
+            </div>
+            <!-- <nuxt-link to="#" class="btn btn-primary">Go somewhere</nuxt-link> -->
           </div>
         </div>
 

@@ -11,7 +11,7 @@
             <br /><i class="fa fa-envelope-o" aria-hidden="true" style="position:absolute; margin-top:4px; "></i> <span class="pl-4">rene@hetechtewerkt.nl</span>
             <br /><i class="fa fa-copyright" aria-hidden="true" style="position:absolute; margin-top:4px;"></i> <span class="pl-4">Het Echte Werkt! | Leiderschapsontwikkeling</span>
           </p>
-          <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+          <!-- <nuxt-link to="#" class="btn btn-primary">Go somewhere</nuxt-link> -->
         </div>
       </div>
 
@@ -22,9 +22,9 @@
         <div class="">
 
           <p class="grey smallText">KvK 244.832.51<br />BTW NL 14.34.76.130.801
-            <br /><i class="fa fa-heart-o" aria-hidden="true"></i> Website door <a href="http://template01.info">Template</a>
+            <br /><i class="fa fa-heart-o" aria-hidden="true"></i> Website door <nuxt-link to="http://template01.info">Template</nuxt-link>
           </p>
-          <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+          <!-- <nuxt-link to="#" class="btn btn-primary">Go somewhere</nuxt-link> -->
         </div>
       </div>
 

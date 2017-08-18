@@ -1,32 +1,33 @@
 <template>
 <div>
   <div class="col-12" id="dagevosHeader">
-    <div class="hidden-sm-down pl-5 pr-5 pt-5 pb-5" >
+    <div class="hidden-sm-down pl-5 pr-5 pt-5 pb-5">
 
 
 
-    <b-navbar toggleable type="inverse" variant="" style="padding:0;">
+      <b-navbar toggleable type="inverse" variant="" style="padding:0;">
 
-      <b-link class="navbar-brand" to="/">
-        <span>
-            <img src="~assets/svg/HetEchteWerk_CMYK.svg" />
+        <nuxt-link to="/" class="navbar-brand">
+          <span>
+          <img src="~assets/svg/HetEchteWerk_CMYK.svg" />
           </span>
-      </b-link>
+        </nuxt-link>
 
-      <b-collapse is-nav id="nav_collapse">
-        <b-nav is-nav-bar class="ml-auto">
-          <b-nav-item-dropdown text="<h4>Menu</h4>" class="" right>
-            <h4><a class="ml-3 mr-3 mt-2 mb-2" href="/wat">Wat en voor wie is het?</a></h4>
-            <h4><a class="ml-3 mr-3 mt-2 mb-2" href="/hoe">Hoe werkt het?</a></h4>
-            <h4><a class="ml-3 mr-3 mt-2 mb-2" href="/referenties">Referenties</a></h4>
-            <h4><a class="ml-3 mr-3 mt-2 mb-2" href="/rene">Rene Dagevos</a></h4>
-            <h4><a class="ml-3 mr-3 mt-2 mb-0" href="/#contact">Contact</a></h4>
-          </b-nav-item-dropdown>
-        </b-nav>
-      </b-collapse>
-    </b-navbar>
 
-  </div>
+        <b-collapse is-nav id="nav_collapse">
+          <b-nav is-nav-bar class="ml-auto">
+            <b-nav-item-dropdown text="<h4>Menu</h4>" class="" right>
+              <h4><nuxt-link class="ml-3 mr-3 mt-2 mb-2" to="/wat">Wat en voor wie is het?</nuxt-link></h4>
+              <h4><nuxt-link class="ml-3 mr-3 mt-2 mb-2" to="/hoe">Hoe werkt het?</nuxt-link></h4>
+              <h4><nuxt-link class="ml-3 mr-3 mt-2 mb-2" to="/referenties">Referenties</nuxt-link></h4>
+              <h4><nuxt-link class="ml-3 mr-3 mt-2 mb-2" to="/rene">Rene Dagevos</nuxt-link></h4>
+              <h4><nuxt-link class="ml-3 mr-3 mt-2 mb-0" to="/#contact">Contact</nuxt-link></h4>
+            </b-nav-item-dropdown>
+          </b-nav>
+        </b-collapse>
+      </b-navbar>
+
+    </div>
 
 
     <b-navbar class="hidden-sm-up beigeBackground fixed-top " toggleable type="" id="" type="light">
@@ -39,11 +40,11 @@
 
       <b-collapse is-nav id="nav_collapse1">
         <b-nav is-nav-bar class="ml-auto">
-          <a class="nav-link" href="/wat">Wat en voor wie is het?</a>
-          <a class="nav-link" href="/hoe">Hoe werkt het?</a>
-          <a class="nav-link" href="/referenties">Referenties</a>
-          <a class="nav-link" href="/rene">Rene Dagevos</a>
-          <a class="nav-link" href="/#contact">Contact</a>
+          <nuxt-link class="nav-link" to="/wat">Wat en voor wie is het?</nuxt-link>
+          <nuxt-link class="nav-link" to="/hoe">Hoe werkt het?</nuxt-link>
+          <nuxt-link class="nav-link" to="/referenties">Referenties</nuxt-link>
+          <nuxt-link class="nav-link" to="/rene">Rene Dagevos</nuxt-link>
+          <nuxt-link class="nav-link" to="/#contact">Contact</nuxt-link>
 
         </b-nav>
       </b-collapse>
@@ -58,29 +59,29 @@
 
   </div>
   <transition name="slide">
-    <b-navbar v-if="!hideNav"  toggleable type="" id="dagevosHeaderFixed" class="fixed-top hidden-sm-down col-12" type="light" style="background:#F6FBFF;">
-      <div  class="pl-5 pr-5"  style="width:100%">
+    <b-navbar v-if="!hideNav" toggleable type="" id="dagevosHeaderFixed" class="fixed-top hidden-sm-down col-12" type="light" style="background:#F6FBFF;">
+      <div class="pl-5 pr-5" style="width:100%">
 
-      <b-nav-toggle class="mt-1" target="nav_collapse2"></b-nav-toggle>
+        <b-nav-toggle class="mt-1" target="nav_collapse2"></b-nav-toggle>
 
-      <b-link class="navbar-brand" to="/" style="float:left; width: 28%; max-width:300px">
-        <span><img  style="width:100%" src="~assets/svg/HetEchteWerk_CMYK_SM.svg"/></span>
-      </b-link>
-      <div  style="float:right; width:auto%">
+        <b-link class="navbar-brand" to="/" style="float:left; width: 28%; max-width:300px">
+          <span><img  style="width:100%" src="~assets/svg/HetEchteWerk_CMYK_SM.svg"/></span>
+        </b-link>
+        <div style="float:right; width:auto%">
 
-      <b-collapse is-nav id="nav_collapse2"  style="">
-        <b-nav is-nav-bar class="ml-auto">
-          <a class="nav-link" href="/wat">Wat en voor wie is het?</a>
-          <a class="nav-link" href="/hoe">Hoe werkt het?</a>
-          <a class="nav-link" href="/referenties">Referenties</a>
-          <a class="nav-link" href="/rene">Rene Dagevos</a>
-          <a class="nav-link" href="/#contact">Contact</a>
+          <b-collapse is-nav id="nav_collapse2" style="">
+            <b-nav is-nav-bar class="ml-auto">
+              <nuxt-link class="nav-link" to="/wat">Wat en voor wie is het?</nuxt-link>
+              <nuxt-link class="nav-link" to="/hoe">Hoe werkt het?</nuxt-link>
+              <nuxt-link class="nav-link" to="/referenties">Referenties</nuxt-link>
+              <nuxt-link class="nav-link" to="/rene">Rene Dagevos</nuxt-link>
+              <nuxt-link class="nav-link" to="/#contact">Contact</nuxt-link>
 
-        </b-nav>
-      </b-collapse>
-    </div>
+            </b-nav>
+          </b-collapse>
+        </div>
 
-    </div>
+      </div>
     </b-navbar>
   </transition>
 
@@ -149,43 +150,43 @@ export default {
         }
     }
 
-    .navbar .dropdown-menu a, .navbar-nav a{
-      &:hover {
-          text-decoration: none;
-          -webkit-box-shadow: 0 1px 0 0 $purple;
-          -moz-box-shadow: 0 1px 0 0 $purple;
-          box-shadow: 0 1px 0 0 $purple;
-        }
-      &:focus {
-        text-decoration: none;
-      }
-    }
-
-    @media screen and (max-width: 992px) {
-      .navbar .dropdown-menu a, .navbar-nav a{
+    .navbar .dropdown-menu a,
+    .navbar-nav a {
         &:hover {
             text-decoration: none;
-            -webkit-box-shadow: none;
-            -moz-box-shadow: none;
-            box-shadow: none;
-          }
-        &:focus {
-          text-decoration: none;
+            -webkit-box-shadow: 0 1px 0 0 $purple;
+            -moz-box-shadow: 0 1px 0 0 $purple;
+            box-shadow: 0 1px 0 0 $purple;
         }
-      }
+        &:focus {
+            text-decoration: none;
+        }
+    }
+    @media screen and (max-width: 992px) {
+        .navbar .dropdown-menu a,
+        .navbar-nav a {
+            &:hover {
+                text-decoration: none;
+                -webkit-box-shadow: none;
+                -moz-box-shadow: none;
+                box-shadow: none;
+            }
+            &:focus {
+                text-decoration: none;
+            }
+        }
 
     }
 
-
     .navbar .dropdown-toggle {
-      &:hover {
-        box-shadow: none;
-      }
+        &:hover {
+            box-shadow: none;
+        }
     }
 
     .navbar-light .navbar-toggler {
-      border: 0;
-      background: white;
+        border: 0;
+        background: white;
     }
 
     .dropdown-toggle::after {
@@ -202,14 +203,14 @@ export default {
         border-color: white;
         border-radius: 0;
 
-        h4{
-          border: 0px;
-          margin-top: 8px;
-          margin-bottom: 8px;
-          width: 100%;
-          font-family: 'Aileron' !important;
-          font-weight: 200;
-          font-size: 25px !important;
+        h4 {
+            border: 0;
+            margin-top: 8px;
+            margin-bottom: 8px;
+            width: 100%;
+            font-family: 'Aileron' !important;
+            font-weight: 200;
+            font-size: 25px !important;
         }
 
         h5 {
