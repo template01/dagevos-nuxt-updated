@@ -1,8 +1,11 @@
 <template>
 <div>
-  <div id="dagevosHeader">
+  <div class="col-12" id="dagevosHeader">
+    <div class="hidden-sm-down pl-5 pr-5 pt-5 pb-5" >
 
-    <b-navbar class="hidden-sm-down" toggleable type="inverse" variant="">
+
+
+    <b-navbar toggleable type="inverse" variant="" style="padding:0;">
 
       <b-link class="navbar-brand" to="/">
         <span>
@@ -22,6 +25,9 @@
         </b-nav>
       </b-collapse>
     </b-navbar>
+
+  </div>
+
 
     <b-navbar class="hidden-sm-up beigeBackground fixed-top " toggleable type="" id="" type="light">
 
@@ -49,17 +55,20 @@
       </b-link>
     </b-navbar>
 
+
   </div>
   <transition name="slide">
-    <b-navbar v-if="!hideNav" toggleable type="" id="dagevosHeaderFixed" class="fixed-top hidden-sm-down" type="light" style="background:#F6FBFF;">
+    <b-navbar v-if="!hideNav"  toggleable type="" id="dagevosHeaderFixed" class="fixed-top hidden-sm-down col-12" type="light" style="background:#F6FBFF;">
+      <div  class="pl-5 pr-5"  style="width:100%">
 
       <b-nav-toggle class="mt-1" target="nav_collapse2"></b-nav-toggle>
 
-      <b-link class="navbar-brand" to="/">
-        <span><img src="~assets/svg/HetEchteWerk_CMYK_SM.svg"/></span>
+      <b-link class="navbar-brand" to="/" style="float:left; width: 28%; max-width:300px">
+        <span><img  style="width:100%" src="~assets/svg/HetEchteWerk_CMYK_SM.svg"/></span>
       </b-link>
+      <div  style="float:right; width:auto%">
 
-      <b-collapse is-nav id="nav_collapse2">
+      <b-collapse is-nav id="nav_collapse2"  style="">
         <b-nav is-nav-bar class="ml-auto">
           <a class="nav-link" href="/wat">Wat en voor wie is het?</a>
           <a class="nav-link" href="/hoe">Hoe werkt het?</a>
@@ -69,6 +78,9 @@
 
         </b-nav>
       </b-collapse>
+    </div>
+
+    </div>
     </b-navbar>
   </transition>
 
@@ -149,6 +161,22 @@ export default {
       }
     }
 
+    @media screen and (max-width: 992px) {
+      .navbar .dropdown-menu a, .navbar-nav a{
+        &:hover {
+            text-decoration: none;
+            -webkit-box-shadow: none;
+            -moz-box-shadow: none;
+            box-shadow: none;
+          }
+        &:focus {
+          text-decoration: none;
+        }
+      }
+
+    }
+
+
     .navbar .dropdown-toggle {
       &:hover {
         box-shadow: none;
@@ -173,6 +201,16 @@ export default {
         width: calc(25vw - 38px);
         border-color: white;
         border-radius: 0;
+
+        h4{
+          border: 0px;
+          margin-top: 8px;
+          margin-bottom: 8px;
+          width: 100%;
+          font-family: 'Aileron' !important;
+          font-weight: 200;
+          font-size: 25px !important;
+        }
 
         h5 {
             font-family: 'Aileron' !important;

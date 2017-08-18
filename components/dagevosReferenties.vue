@@ -24,8 +24,9 @@
   <div class="container beigeBackground">
     <div class="row">
 
+
       <swiper class="beigeBackground" :options="swiperOption" ref="mySwiper" style="margin-left:-15px;margin-right:-15px;">
-        <swiper-slide class="" v-for="referentie in refsProp.referenties">
+        <swiper-slide class="" v-for="(referentie, index) in refsProp.referenties" v-bind:key="index">
           <div class="col-sm-6 float-left">
             <div class="p-5" style="">
               <div class="">
@@ -48,13 +49,12 @@
         <div class="swiper-pagination" slot="pagination"></div>
         <div class="swiper-button-prev" style='background-image:' slot="button-prev"></div>
         <div class="swiper-button-next" slot="button-next"></div>
-        <!-- <div class="swiper-scrollbar" slot="scrollbar"></div> -->
       </swiper>
 
 
     </div>
   </div>
-<!--
+  <!--
   <div class="container">
 
     <div class="row">
@@ -119,7 +119,8 @@ export default {
         onTransitionStart(swiper) {
           // console.log(swiper)
         },
-      }
+      },
+
     }
   }
 }

@@ -2,7 +2,7 @@
 <div class="" id="index">
 
 
-  <div class="container spacerTopM spacerBottomM">
+  <!-- <div class="container spacerTopM spacerBottomM">
     <div class="row">
       <div class="col">
         <h1 class="float-right">Wat is het</h1>
@@ -11,7 +11,7 @@
         <h1><br />echte voor jou?</h1>
       </div>
     </div>
-  </div>
+  </div> -->
   <div class="index-full-cover heightTall">
   </div>
   <div class="container">
@@ -51,7 +51,7 @@
 
 
   </div>
-      <hr class="m-5 p-3">
+      <hr class="m-4 p-2">
   <div class="container pt-2">
 
     <div class="row mt-5">
@@ -154,7 +154,7 @@
       </div>
     </div>
   </div>
-    <hr class="m-5 p-3">
+    <hr class="m-4 p-2">
   <div class="container pt-2">
 
     <div class="row">
@@ -172,6 +172,8 @@
     </div>
 
     <div class="row">
+
+
       <div class="col-sm-6">
 
         <div class="float-left" style="margin-left:-15px;margin-right:-15px;">
@@ -193,8 +195,10 @@
   </div>
 
 
+  <hr class="m-4 p-2 mt-5">
 
   <div class="container" id="contact">
+
 
     <div class="row">
       <div class="col-sm-6">
