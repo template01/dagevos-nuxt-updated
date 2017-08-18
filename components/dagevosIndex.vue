@@ -134,7 +134,7 @@
             </div>
             <!-- <p class="" v-html="indexOpdrachtsProp.wie.blurb"></p> -->
 
-            <div class="buttonImitate" style="background:transparent; border-color:#552E87;">
+            <div class="float-left buttonImitate" style="background:transparent; border-color:#552E87;">
               <nuxt-link to="/referenties">Lees verder voor wie Het Echte Werkt! <i class="fa fa-hand-o-right" aria-hidden="true"></i></nuxt-link>
             </div>
           </div>
@@ -186,7 +186,7 @@
           <div v-html="indexIndexProp.rene.content">
 
           </div>
-          <div class="mt-2 buttonImitate" style="background:transparent; border-color:#552E87;">
+          <div class="mt-2 float-left  buttonImitate" style="background:transparent; border-color:#552E87;">
             <nuxt-link to="/rene">Lees meer over René <i class="fa fa-hand-o-right" aria-hidden="true"></i></nuxt-link>
           </div>
         </div>
