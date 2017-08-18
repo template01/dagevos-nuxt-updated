@@ -178,7 +178,7 @@ a {
 }
 
 .index-full-cover {
-  background: url('~assets/img/FIRST_Rotterdam_Kantoren_uitzicht2.jpg') no-repeat center center fixed;
+  background: url('/content/img/FIRST_Rotterdam_Kantoren_uitzicht2.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

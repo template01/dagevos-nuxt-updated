@@ -177,7 +177,7 @@
       <div class="col-sm-6">
 
         <div class="float-left" style="margin-left:-15px;margin-right:-15px;">
-          <img style="max-width:100%;" class="" src="~assets/img/russells-RLA002-ST-0146-sq.jpg" alt="">
+          <img style="max-width:100%;" class="" src="/content/img/russells-RLA002-ST-0146-sq.jpg" alt="">
         </div>
       </div>
 
