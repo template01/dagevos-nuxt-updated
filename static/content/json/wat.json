@@ -1,0 +1,21 @@
+{
+  "wat1": {
+    "title": "Wat is Het Echte Werkt!",
+    "content": " <p> Het Echte Werkt! coacht individuen en teams op hoog niveau.<br>Het Echte Werkt! is professioneel, eigenzinnig en no-nonsense.<br>Het Echte Werkt! staat voor coaching die werkt.</p>"
+  },
+  "wat2": {
+    "title": "",
+    "content": "",
+    "imgpath": "/content/img/IMG_20170728_145357_CROP2.jpg"
+  },
+  "wat3": {
+    "left": {
+      "title": "Wat1",
+      "content": "<p>De coachingsvragen zijn veelal werkgerelateerd en komen voort uit de behoefte om als mens én professional verder te groeien en effectiever te worden. De thematiek is actueel en relevant in je (werkende) leven. De aanpak is gericht op wat er echt speelt voor jou en waar je je echt in wilt ontwikkelen, zowel professioneel als persoonlijk.</p><p>Tijdens het coachingstraject krijg je zicht op waar het echt om gaat en leer je om effectief te variëren in vaardigheden, houding en gedrag. In de praktijk blijkt steeds weer dat die aanpak Echt Werkt!</p>"
+    },
+    "right": {
+      "title": "Wat2",
+      "content": " <p>Elk coachingstraject verloopt in een aantal stappen. Op basis van jouw coachingsvraag worden die stappen op maat gesneden.</p><p>Je kunt de coaching van Het Echte Werkt! herkennen aan:</p><ul><li>heldere doelstellingen</li><li>koppeling tussen leerdoelen en je dagelijkse praktijk</li><li>reflectie en verankering</li><li>humor en ernst</li><li>zakelijkheid en diepgang</li><li>concrete resultaten</li></ul>"
+  }
+  }
+}

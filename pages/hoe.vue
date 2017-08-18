@@ -14,6 +14,9 @@ import dagevosHoe from '~/components/dagevosHoe.vue'
 import dagevosFooter from '~/components/dagevosFooter.vue'
 import axios from 'axios'
 
+import hoe from '~/static/content/json/hoe.json'
+
+
 export default {
   components: {
     Logo,
@@ -22,18 +25,25 @@ export default {
     dagevosFooter
   },
 
-  async asyncData({
-    query,
-    error
-  }) {
-    let [hoeRes] = await Promise.all([
-      axios.get('http://werkt.template01.info/json/hoe.json'),
-
-    ])
+  data: function () {
     return {
-      hoe: hoeRes.data,
+      hoe
     }
-  }
+  },
+
+
+  // async asyncData({
+  //   query,
+  //   error
+  // }) {
+  //   let [hoeRes] = await Promise.all([
+  //     axios.get('http://werkt.template01.info/json/hoe.json'),
+  //
+  //   ])
+  //   return {
+  //     hoe: hoeRes.data,
+  //   }
+  // }
 
 }
 </script>

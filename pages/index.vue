@@ -13,6 +13,10 @@ import dagevosHeader from '~/components/dagevosHeader.vue'
 import dagevosIndex from '~/components/dagevosIndex.vue'
 import dagevosFooter from '~/components/dagevosFooter.vue'
 
+import indexIndex from '~/static/content/json/index.json'
+import indexRefs from '~/static/content/json/referenties.json'
+import indexOpdrachts from '~/static/content/json/opdrachtgevers.json'
+
 import axios from 'axios'
 
 
@@ -24,20 +28,29 @@ export default {
     dagevosFooter
   },
 
-  async asyncData({ query, error }) {
-    let [indexIndexRes, indexRefsRes, indexOpdrachtsRes] = await Promise.all([
-      axios.get('http://werkt.template01.info/json/index.json'),
-      axios.get('http://werkt.template01.info/json/referenties.json'),
-      axios.get('http://werkt.template01.info/json/opdrachtgevers.json'),
-      // axios.get('https://jsonplaceholder.typicode.com/posts'),
-      // axios.get('http://werkt.template01.info/json/referenties.json'),
-    ])
+
+  data: function () {
     return {
-       indexIndex: indexIndexRes.data,
-       indexRefs: indexRefsRes.data,
-       indexOpdrachts: indexOpdrachtsRes.data
+      indexIndex,
+      indexRefs,
+      indexOpdrachts
     }
-  }
+  },
+
+  // async asyncData({ query, error }) {
+  //   let [indexIndexRes, indexRefsRes, indexOpdrachtsRes] = await Promise.all([
+  //     axios.get('http://werkt.template01.info/json/index.json'),
+  //     axios.get('http://werkt.template01.info/json/referenties.json'),
+  //     axios.get('http://werkt.template01.info/json/opdrachtgevers.json'),
+  //     // axios.get('https://jsonplaceholder.typicode.com/posts'),
+  //     // axios.get('http://werkt.template01.info/json/referenties.json'),
+  //   ])
+  //   return {
+  //      indexIndex: indexIndexRes.data,
+  //      indexRefs: indexRefsRes.data,
+  //      indexOpdrachts: indexOpdrachtsRes.data
+  //   }
+  // }
 
 
 

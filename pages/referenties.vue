@@ -14,6 +14,10 @@ import dagevosHeader from '~/components/dagevosHeader.vue'
 import dagevosReferenties from '~/components/dagevosReferenties.vue'
 import dagevosFooter from '~/components/dagevosFooter.vue'
 import axios from 'axios'
+
+import refs from '~/static/content/json/referenties.json'
+import opdrachts from '~/static/content/json/opdrachtgevers.json'
+
 // import vueawesomeswiper from 'vue-awesome-swiper'
 
 
@@ -25,21 +29,30 @@ export default {
     dagevosFooter
   },
 
-  async asyncData({
-    query,
-    error
-  }) {
-    let [refsRes, opdrachtsRes] = await Promise.all([
-      axios.get('http://werkt.template01.info/json/referenties.json'),
-      axios.get('http://werkt.template01.info/json/opdrachtgevers.json'),
-      // axios.get('https://jsonplaceholder.typicode.com/posts'),
-      // axios.get('http://werkt.template01.info/json/referenties.json'),
-    ])
-    return {
-      refs: refsRes.data,
-      opdrachts: opdrachtsRes.data
-    }
-  },
+
+    data: function () {
+      return {
+        refs,
+        opdrachts
+      }
+    },
+
+
+  // async asyncData({
+  //   query,
+  //   error
+  // }) {
+  //   let [refsRes, opdrachtsRes] = await Promise.all([
+  //     axios.get('http://werkt.template01.info/json/referenties.json'),
+  //     axios.get('http://werkt.template01.info/json/opdrachtgevers.json'),
+  //     // axios.get('https://jsonplaceholder.typicode.com/posts'),
+  //     // axios.get('http://werkt.template01.info/json/referenties.json'),
+  //   ])
+  //   return {
+  //     refs: refsRes.data,
+  //     opdrachts: opdrachtsRes.data
+  //   }
+  // },
 
 
 

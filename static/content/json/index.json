@@ -1,0 +1,39 @@
+{
+  "wat": {
+    "title": "Wat is het echte voor jou?",
+    "blurb": "De coaching van Het Echte Werkt! is erop gericht die vraag te beantwoorden. Zodat je het echte voor ogen hebt en houdt, in je werk en in je leven. Echte Werkt! staat voor coaching die werkt. Om je effectief en vanuit de essentie te begeleiden in je professionele en persoonlijke ontwikkeling."
+  },
+  "hoe": {
+    "title": "Hoe werkt Het Echte Werkt!",
+    "content": "<p>Het Echte Werkt! coacht mensen die zichzelf echt willen ontwikkelen. Dat vraagt lef, inzet, discipline en doorzettingsvermogen. Vanuit de praktijk heeft Het Echte Werkt! een eigen manier van werken ontwikkeld die bestaat uit vier stappen.</p>",
+    "cards": [{
+        "content": "1<br>Inzien<br>Bewustwording"
+      },
+      {
+        "content": "2<br>Doen<br>Aan de slag!"
+      },
+      {
+        "content": "3<br>Reflecteren<br>Evalueren"
+      },
+      {
+        "content": "4<br>Verankeren<br>Integreren"
+      }
+    ]
+  },
+  "wie":{
+    "title": "Voor wie is Het Echte Werkt!?",
+    "blurb": "",
+    "content": "<p>Het Echte Werkt! werkt samen met ambitieuze, hoger opgeleide en zich snel ontwikkelende managers en professionals.<br>Coaching is waardevol als je serieus bezig bent met de invulling en vormgeving van je professionele loopbaan en van je persoonlijke leven.</p>"
+  },
+  "rene": {
+    "title": "Over René",
+    "blurb": "Het Echte Werkt! is het coachings- en trainingsbureau van René Dagevos.",
+    "content": "<p>Ik ben geboren en getogen in Zeeland en sinds 1990 woon ik in Rotterdam. Lang en gelukkig samen en sinds 2009 getrouwd met Esther. Samen hebben we twee prachtige kinderen, Mees en Jonas.</p><p>Ondanks dat ik enkele keren voor langere tijd in het buitenland studeerde en werkte, ben ik gevormd door de Zeeuwse kust en klei en de Rotterdamse dynamiek en daadkracht. De mooie mix van nuchterheid, (zelf)relativering, directheid, betrokkenheid, zakelijkheid en openheid sluit aan bij de waarden die ik koester, zowel persoonlijk als professioneel.</p>"
+  },
+  "contact": {
+    "title": "Contact",
+    "content": "<p>Coaching kan niet zonder contact. Neem contact op om in gesprek te gaan of Het Echte Werkt! ook voor jou kan werken.</p><div class='row mt-5'><div class='col-md-6'><p>Mobiel<br> 06 51 24 18 61.<br></p></div><div class='col-md-6'><p>E-mail <br>rene@hetechtewerkt.nl</p></div><div class='col-md-6'><p>Kantoor<br>Het Echte Werkt!<br>De Fabriek van Delfshaven<br>Mathenesserdijk 416-J<br>3026 GV Rotterdam</p></div><div class='col-md-6'><p class='smallText'>Ik ben veelal ook bereikbaar in de avonduren tussen 20.00 uur en 22.00 uur. Mocht je mijn voicemail krijgen, spreek dan in en ik bel je binnen één werkdag terug.</p><p class='smallText'>Ik reageer uiterlijk binnen twee werkdagen op je e-mailbericht.</p></div></div>"
+  }
+
+
+}
