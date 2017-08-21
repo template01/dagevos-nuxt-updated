@@ -11,10 +11,13 @@ body {
   color: #552E87;
 }
 
+
+
 @media (max-width:991px) {
   body {
     background: #F6FBFF !important;
   }
+
 }
 
 hr {
@@ -171,6 +174,59 @@ a {
 
 .negativeSpacerBottomL {
   margin-bottom: -150px;
+}
+
+
+@media (max-width:991px) {
+
+  .spacerTopS {
+    margin-top: 50px;
+  }
+
+  .spacerTopM {
+    margin-top: 50px;
+  }
+
+  .spacerTopL {
+    margin-top: 50px;
+  }
+
+  .spacerBottomS {
+    margin-bottom: 50px;
+  }
+
+  .spacerBottomM {
+    margin-bottom: 50px;
+  }
+
+  .spacerBottomL {
+    margin-bottom: 50px;
+  }
+
+  .negativeSpacerTopS {
+    margin-top: -50px;
+  }
+
+  .negativeSpacerTopM {
+    margin-top: -50px;
+  }
+
+  .negativeSpacerTopL {
+    margin-top: -50px;
+  }
+
+  .negativeSpacerBottomS {
+    margin-bottom: -50px;
+  }
+
+  .negativeSpacerBottomM {
+    margin-bottom: -50px;
+  }
+
+  .negativeSpacerBottomL {
+    margin-bottom: -50px;
+  }
+
 }
 
 .navbar-toggler-icon :after {
