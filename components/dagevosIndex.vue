@@ -14,7 +14,7 @@
   </div> -->
   <div class="index-full-cover heightTall">
   </div>
-  <div class="container">
+  <div class="container px-5">
 
     <div class="row">
       <div class="col-sm-6">
@@ -22,7 +22,7 @@
           <div class="">
             <h4 class="mb-5" v-html="indexIndexProp.wat.title"></h4>
             <p class="" v-html="indexIndexProp.wat.blurb"></p>
-            <div class="float-right buttonImitate" style="background:transparent; border-color:#552E87;">
+            <div class=" mb-5 mt-1 float-right buttonImitate buttonBlue">
               <nuxt-link to="/wat">Lees verder over Het Echte Werkt! <i class="fa fa-hand-o-right" aria-hidden="true"></i></nuxt-link>
             </div>
             <!-- <nuxt-link to="#" class="btn btn-primary">Go somewhere</nuxt-link> -->
@@ -31,7 +31,7 @@
       </div>
 
 
-      <div class="col-sm-6 spacerTopM">
+      <div class="col-sm-6 negativeSpacerTopM negativeSpacerBottomS">
         <div class="card m-5">
           <div class="card-block">
             <div class="row">
@@ -51,8 +51,8 @@
 
 
   </div>
-      <hr class="m-4 p-2">
-  <div class="container pt-2">
+      <!-- <hr class="m-4 p-2"> -->
+  <div class="container pt-2 greyBackground px-5">
 
     <div class="row mt-5">
       <div class="col-sm-6">
@@ -64,15 +64,15 @@
       </div>
     </div>
   </div>
-  <div class="container">
+  <div class="container greyBackground pb-5 px-5">
 
     <div class="row">
 
       <div class="col-sm-6 pl-5 pr-5">
         <div class="row pl-1">
           <div v-for="card in indexIndexProp.hoe.cards" class="col-sm-6 p-4">
-            <div class="card p-3" style="background:white;">
-              <h3 v-html="card.content"></h3>
+            <div class="card p-3" style="background:#552E87;">
+              <h3 v-html="card.content" style="color:white !important;"></h3>
               <!-- <nuxt-link to="#" class="btn btn-primary">Go somewhere</nuxt-link> -->
             </div>
           </div>
@@ -84,7 +84,7 @@
             <div v-html="indexIndexProp.hoe.content">
 
             </div>
-            <div class="float-right buttonImitate" style="background:transparent; border-color:#552E87;">
+            <div class=" mb-5 mt-1 float-right buttonImitate buttonBlue">
               <nuxt-link to="/hoe">Lees verder hoe Het Echte Werkt! <i class="fa fa-hand-o-right" aria-hidden="true"></i></nuxt-link>
             </div>
           </div>
@@ -94,12 +94,12 @@
     </div>
   </div>
 
-  <div class="index-full-cover heightTall spacerTopS">
+  <div class="index-full-cover heightTall">
 
   </div>
-  <div class="container">
+  <div class="container px-5">
 
-    <div class="row spacerBottomS">
+    <div class="row">
 
       <div class="col-sm-6 negativeSpacerTopM negativeSpacerBottomS">
         <div class="card m-5">
@@ -121,7 +121,7 @@
   </div>
 
 
-  <div class="container">
+  <div class="container pb-5 px-5">
 
     <div class="row">
       <div class="col-sm-6">
@@ -134,7 +134,7 @@
             </div>
             <!-- <p class="" v-html="indexOpdrachtsProp.wie.blurb"></p> -->
 
-            <div class="float-left buttonImitate" style="background:transparent; border-color:#552E87;">
+            <div class=" mt-1 float-left buttonImitate buttonBlue">
               <nuxt-link to="/referenties">Lees verder voor wie Het Echte Werkt! <i class="fa fa-hand-o-right" aria-hidden="true"></i></nuxt-link>
             </div>
           </div>
@@ -154,8 +154,8 @@
       </div>
     </div>
   </div>
-    <hr class="m-4 p-2">
-  <div class="container pt-2">
+    <!-- <hr class="m-4 p-2"> -->
+  <div class="container pt-2 greyBackground px-5">
 
     <div class="row">
       <div class="col-sm-6">
@@ -176,7 +176,7 @@
 
       <div class="col-sm-6">
 
-        <div class="float-left" style="margin-left:-15px;margin-right:-15px;">
+        <div class="float-left" style="margin-left:-63px; margin-right:-30px;">
           <img style="max-width:100%;" class="" src="/content/img/russells-RLA002-ST-0146-sq.jpg" alt="">
         </div>
       </div>
@@ -186,7 +186,7 @@
           <div v-html="indexIndexProp.rene.content">
 
           </div>
-          <div class="mt-2 float-left  buttonImitate" style="background:transparent; border-color:#552E87;">
+          <div class="mb-5 mt-1 float-left  buttonImitate buttonBlue">
             <nuxt-link to="/rene">Lees meer over René <i class="fa fa-hand-o-right" aria-hidden="true"></i></nuxt-link>
           </div>
         </div>
@@ -195,7 +195,7 @@
   </div>
 
 
-  <hr class="m-4 p-2 mt-5">
+  <!-- <hr class="m-4 p-2 mt-5"> -->
 
   <div class="container" id="contact">
 

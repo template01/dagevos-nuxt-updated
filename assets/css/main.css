@@ -1,12 +1,9 @@
 body {
-  background: -webkit-linear-gradient(left, #F6FBFF 50%, #ECECEC 50%);
-  /* For Safari 5.1 to 6.0 */
+  background: #E6F4FF;
+  /*background: -webkit-linear-gradient(left, #F6FBFF 50%, #ECECEC 50%);
   background: -o-linear-gradient(right, #F6FBFF 50%, #ECECEC 50%);
-  /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(right, #F6FBFF 50%, #ECECEC 50%);
-  /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to right, red #F6FBFF%, #ECECEC 50%);
-  /* Standard syntax */
+  background: linear-gradient(to right, red #F6FBFF%, #ECECEC 50%);*/
   overflow-x: hidden;
   color: #552E87;
 }
@@ -25,9 +22,15 @@ hr {
   border-bottom: 1px solid #552E87 !important;
 }
 
+.row{
+   max-width:1600px !important;
+   margin: auto !important;
+}
+
+
 .card {
   border: 0 !important;
-  border-radius: 0!important;
+  /*border-radius: 0!important;*/
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -40,7 +43,7 @@ h4 {
   /*font-size: 25px;*/
   font-family: 'Coolvetica Rg' !important;
     font-size: 1.75rem !important;
-  font-weight: 200 !important;
+  font-weight: 400 !important;
 }
 
 h6 {
@@ -49,11 +52,11 @@ h6 {
 
 p, ul, ol {
   color: #552E87;
-  font-size: 25px;
+  font-size: 20px;
   letter-spacing: -0.02rem;
   font-family: 'Aileron';
   line-height: 1.4;
-  font-weight: 300;
+  font-weight: 400;
 }
 
  input, .input-group, .input-group-addon {
@@ -106,6 +109,20 @@ a {
 
 .grey {
   color: grey
+}
+
+.buttonBlue{
+  background: #5DA6E8;
+  color: white;
+}
+
+.buttonBlue a{
+  color: white !important;
+
+}
+
+.greyBackground{
+  background-color:  rgb(246, 251, 255);
 }
 
 .blueBackground {

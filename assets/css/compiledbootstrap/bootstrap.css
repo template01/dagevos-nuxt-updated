@@ -336,7 +336,7 @@ body {
   font-weight: normal;
   line-height: 1.5;
   color: #292b2c;
-  background-color: #fff;
+  /*background-color: #fff;*/
 }
 
 [tabindex="-1"]:focus {
@@ -6476,33 +6476,33 @@ a.bg-inverse:focus, a.bg-inverse:hover {
 
 
 .m-5 {
-  margin: 1rem 1rem !important;
+  margin: 0.5rem 0.5rem !important;
 }
 
 .mt-5 {
-  margin-top: 1rem !important;
+  margin-top: 0.5rem !important;
 }
 
 .mr-5 {
-  margin-right: 1rem !important;
+  margin-right: 0.5rem !important;
 }
 
 .mb-5 {
-  margin-bottom: 1rem !important;
+  margin-bottom: 0.5rem !important;
 }
 
 .ml-5 {
-  margin-left: 1rem !important;
+  margin-left: 0.5rem !important;
 }
 
 .mx-5 {
-  margin-right: 1rem !important;
-  margin-left: 1rem !important;
+  margin-right: 0.5rem !important;
+  margin-left: 0.5rem !important;
 }
 
 .my-5 {
-  margin-top: 1rem !important;
-  margin-bottom: 1rem !important;
+  margin-top: 0.5rem !important;
+  margin-bottom: 0.5rem !important;
 }
 
 }
@@ -6689,33 +6689,33 @@ a.bg-inverse:focus, a.bg-inverse:hover {
 
 @media (max-width:991px) {
   .p-5 {
-    padding: 1rem 1rem !important;
+    padding: 0.5rem !important;
   }
 
   .pt-5 {
-    padding-top: 1rem !important;
+    padding-top: 0.5rem !important;
   }
 
   .pr-5 {
-    padding-right: 1rem !important;
+    padding-right: 0.5rem !important;
   }
 
   .pb-5 {
-    padding-bottom: 1rem !important;
+    padding-bottom: 0.5rem !important;
   }
 
   .pl-5 {
-    padding-left: 1rem !important;
+    padding-left: 0.5rem !important;
   }
 
   .px-5 {
-    padding-right: 1rem !important;
-    padding-left: 1rem !important;
+    padding-right: 0.5rem !important;
+    padding-left: 0.5rem !important;
   }
 
   .py-5 {
-    padding-top: 1rem !important;
-    padding-bottom: 1rem !important;
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
   }
 }
 
