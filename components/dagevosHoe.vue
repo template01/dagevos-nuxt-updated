@@ -1,7 +1,7 @@
 <template>
 <div id="dagevosHoe">
 
-  <div class="container">
+  <div class="container px-5">
 
     <div class="row">
       <div class="col-sm-6">
@@ -17,7 +17,7 @@
     <div class="row">
       <div class="col-sm-6">
 
-        <div class="float-left" style="margin-left:-15px;margin-right:-15px;">
+        <div class="float-left" style="margin-left:-63px;margin-right:-15px;">
           <img style="max-width:100%;" class="" :src="hoeProp.hoe1.left.imgpath" alt="">
         </div>
       </div>
@@ -32,16 +32,16 @@
   </div>
 
 
-  <div class="container">
+  <div class="container px-5 greyBackground">
     <div class="row">
 
-      <div class="col-sm-6 beigeBackground">
+      <div class="col-sm-6">
         <div class="p-5" style="background-color: transparent; border-color: transparent;">
           <div v-html="hoeProp.hoe3.left.content">
           </div>
         </div>
       </div>
-      <div class="col-sm-6 beigeBackground">
+      <div class="col-sm-6">
         <div class="p-5" style="background-color: transparent; border-color: transparent;">
           <div v-html="hoeProp.hoe3.right.content">
           </div>
@@ -50,7 +50,7 @@
     </div>
   </div>
 
-  <div class="container">
+  <div class="container px-5">
     <div class="row">
 
       <div class="col-sm-6">
@@ -63,7 +63,7 @@
       </div>
       <div class="col-sm-6">
 
-        <div class="float-left" style="margin-left:-15px;margin-right:-15px;">
+        <div class="float-left" style="margin-left:-15px;margin-right:-63px;">
           <img style="max-width:100%;" class="" :src="hoeProp.hoe4.right.imgpath" alt="">
         </div>
       </div>
@@ -71,13 +71,13 @@
   </div>
 
 
-  <div class="container">
+  <div class="container px-5 greyBackground">
     <div class="row">
 
-      <div class="col-sm-6 blueBackground">
+      <div class="col-sm-6">
 
         <div class="hidden-sm-down" style="margin-left:-15px;margin-right:-15px;">
-          <div class="index-full-cover" :style="{'background-image':'url('+hoeProp.hoe2.right.imgpath+')'}" style="position:absolute; right:0; top:0; height:100%; width:100%;">
+          <div class="index-full-cover" :style="{'background-image':'url('+hoeProp.hoe2.right.imgpath+')'}" style="position:absolute; right:0px; top:0; height:100%; width:calc(100% + 63px)">
           </div>
         </div>
         <div class="hidden-sm-up" style="margin-left:-15px;margin-right:-15px;">

@@ -2,13 +2,13 @@
 <div id="dagevosWat">
 
 
-  <div class="container">
+  <div class="container px-5">
 
     <div class="row">
       <div class="col-sm-6">
         <div class="p-5" style="">
           <div class="">
-            <h3 class="pb-5" v-html="watProp.wat1.title">Hoe werkt Het echte Werkt?</h3>
+            <h3 class="pb-5" v-html="watProp.wat1.title"></h3>
             <div v-html="watProp.wat1.content">
 
             </div>
@@ -18,8 +18,8 @@
       </div>
 
 
-      <div class="col-sm-6 beigeBackground">
-        <div class="float-left" style="margin-left:-15px;margin-right:-15px;">
+      <div class="col-sm-6">
+        <div class="float-left" style="margin-left:-15px;margin-right:-63px;">
           <img style="max-width:100%;" class="" :src="watProp.wat2.imgpath" alt="">
         </div>
 
@@ -31,7 +31,7 @@
   <div class="index-full-cover heightTall" :style="{'background-image':'url('+watProp.wat2.imgpath+')'}">
   </div> -->
 
-  <div class="container">
+  <div class="container px-5 greyBackground">
     <div class="row">
       <div class="col-sm-6">
         <div class="p-5">
@@ -48,9 +48,8 @@
       </div>
     </div>
   </div>
-<hr class="m-5">
 
-    <div class="container">
+    <div class="container  px-5">
 
       <div class="row">
         <div class="col-sm-6">
