@@ -1,7 +1,7 @@
 {
   "wie": {
     "left": {
-      "title": "Voor wie werkt Het Echte Werkt?",
+      "title": "Doelgroep",
       "content": "<p>Het Echte Werkt! werkt samen met ambitieuze, hoger opgeleide en zich snel ontwikkelende managers en professionals. Deze doelgroep wil zelf echt aan de slag met hun eigen professionele en persoonlijke ontwikkeling. En met de gezamenlijke ontwikkeling van een groep mensen als het een team betreft.</p><p>Coaching is  waardevol als je serieus bezig bent met de invulling en vormgeving van je professionele loopbaan en van je persoonlijke leven. De behoefte aan coaching kan sterker zijn als je geconfronteerd wordt met één of meer van de volgende situaties:</p>",
       "imgpath": ""
     },
@@ -14,37 +14,51 @@
   "opdrachtgevers": [{
       "name": "",
       "url": "",
-      "imgpath": "/content/logos/logo_ACCENTURE.png"
+      "imgpath": "/content/logos/logo_aegon.svg"
     },
     {
       "name": "",
       "url": "",
-      "imgpath": "/content/logos/logo_AEGON.png"
+      "imgpath": "/content/logos/logo_debaak.svg"
 
     },
     {
       "name": "",
       "url": "",
-      "imgpath": "/content/logos/logo_DELOITTE.png"
+      "imgpath": "/content/logos/logo_deloitte.svg"
 
     },
     {
       "name": "",
       "url": "",
-      "imgpath": "/content/logos/logo_LEEUWENDAAL.png"
+      "imgpath": "/content/logos/logo_eneco.svg"
 
     },
     {
       "name": "",
       "url": "",
-      "imgpath": "/content/logos/logo_MINISTERIEOCW.png"
+      "imgpath": "/content/logos/logo_gemeenterotterdam.svg"
 
     },
     {
       "name": "",
       "url": "",
-      "imgpath": "/content/logos/logo_DELTALLOYD.png"
-
+      "imgpath": "/content/logos/logo_minvanocw.svg"
+    },
+    {
+      "name": "",
+      "url": "",
+      "imgpath": "/content/logos/logo_minvanvws.svg"
+    },
+    {
+      "name": "",
+      "url": "",
+      "imgpath": "/content/logos/logo_provzuidholland.svg"
+    },
+    {
+      "name": "",
+      "url": "",
+      "imgpath": "/content/logos/logo_stedin.svg"
     }
   ]
 

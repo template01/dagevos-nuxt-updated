@@ -1,14 +1,14 @@
 {
   "hoe1": {
     "left": {
-      "title": "Hoe werkt Het echte Werkt?",
+      "title": "Werkwijze",
       "content": "",
       "imgpath": "/content/img/IMG_20170728_145357_CROP2.jpg"
 
     },
     "right": {
       "title": "",
-      "content": " <p>Het Echte Werkt! een eigen manier van werken ontwikkeld die bestaat uit vier stappen. Per coachingstraject worden die stappen anders ingevuld maar ze komen in elk proces terug. De methodiek ziet er als volgt uit:</p><ol class='mt-5'><li><span>Inzien/Bewust worden</span> <br>Wat wil ik leren en welke vaardigheden wil ik ontwikkelen?<br>Wat is mijn vraag achter een gevoel van onvrede?<br>Waar gaat het echt om voor mij?</li><li>Doen/Aan de slag<br>Wat gaat goed en wat minder goed in de dagelijkse praktijk?<br>Hoe verhouden mijn ontwikkelpunten zich tot die praktijk?<br>Wat wil ik anders gaan doen?</li><li>Reflecteren/Evalueren<br>Wat zeggen de leervragen en ontwikkelpunten over mij?<br>Wat kan ik veranderen en hoe kom ik verder?<br>Wat werkt wel en wat werkt niet voor mij?</li><li>Verankeren/Integreren<br>Hoe kan ik de inzichten van dit coachingstraject vasthouden?<br>Hoe blijf ik effectief variëren in mijn gedrag en handelen?<br>Hoe kan ik mij blijven(d) ontwikkelen?</li></ol>",
+      "content": " <p>Het Echte Werkt! een eigen manier van werken ontwikkeld die bestaat uit vier stappen. Per coachingstraject worden die stappen anders ingevuld maar ze komen in elk proces terug. De methodiek ziet er als volgt uit:</p><ul class='mt-5'><li><h3>Inzien/Bewust worden</h3><br>Wat wil ik leren en welke vaardigheden wil ik ontwikkelen?<br>Wat is mijn vraag achter een gevoel van onvrede?<br>Waar gaat het echt om voor mij?</li><li><h3>Doen/Aan de slag</h3><br>Wat gaat goed en wat minder goed in de dagelijkse praktijk?<br>Hoe verhouden mijn ontwikkelpunten zich tot die praktijk?<br>Wat wil ik anders gaan doen?</li><li><h3>Reflecteren/Evalueren</h3><br>Wat zeggen de leervragen en ontwikkelpunten over mij?<br>Wat kan ik veranderen en hoe kom ik verder?<br>Wat werkt wel en wat werkt niet voor mij?</li><li><h3>Verankeren/Integreren</h3><br>Hoe kan ik de inzichten van dit coachingstraject vasthouden?<br>Hoe blijf ik effectief variëren in mijn gedrag en handelen?<br>Hoe kan ik mij blijven(d) ontwikkelen?</li></ul>",
       "imgpath": ""
     }
   },
@@ -51,19 +51,19 @@
       "content": "",
       "imgpath": "/content/img/russells-RLA002-ST-0146-sq.jpg"
     }
-  },
-  "tarieven": {
-    "left": {
-      "title": "Tarieven",
-      "content": "<p>Het Echte Werkt! hanteert verschillende tarieven:<ul><li>voor individuele coaching en voor teamcoaching;</li><li>voor begeleiden van intervisie bijeenkomsten;</li><li>voor ontwikkeling en uitvoering van trainingen;</li><li>voor particulieren en voor bedrijven.</li></ul></p><p>Voor een individueel coachingsgesprek wordt twee uur in rekening gebracht: <br>anderhalf uur voor het gesprek zelf en een half uur voor voorbereiding en opvolging.</p><p>Tarieven zijn <br>inclusief: reistijd, tussentijds telefonisch contact en materiaalkosten <br>exclusief: reis- en  locatiekosten en 19% BTW.</p><p>Overige afspraken worden per traject op maat gemaakt en vastgelegd in een offertevoorstel.</p>",
-      "imgpath": ""
-    },
-    "right": {
-      "title": "",
-      "content": "",
-      "imgpath": ""
-
-    }
   }
+  // "tarieven": {
+  //   "left": {
+  //     "title": "Tarieven",
+  //     "content": "<p>Het Echte Werkt! hanteert verschillende tarieven:<ul><li>voor individuele coaching en voor teamcoaching;</li><li>voor begeleiden van intervisie bijeenkomsten;</li><li>voor ontwikkeling en uitvoering van trainingen;</li><li>voor particulieren en voor bedrijven.</li></ul></p><p>Voor een individueel coachingsgesprek wordt twee uur in rekening gebracht: <br>anderhalf uur voor het gesprek zelf en een half uur voor voorbereiding en opvolging.</p><p>Tarieven zijn <br>inclusief: reistijd, tussentijds telefonisch contact en materiaalkosten <br>exclusief: reis- en  locatiekosten en 19% BTW.</p><p>Overige afspraken worden per traject op maat gemaakt en vastgelegd in een offertevoorstel.</p>",
+  //     "imgpath": ""
+  //   },
+  //   "right": {
+  //     "title": "",
+  //     "content": "",
+  //     "imgpath": ""
+
+  //   }
+  // }
 
 }
