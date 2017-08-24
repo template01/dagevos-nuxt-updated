@@ -1,7 +1,7 @@
 <template>
 <div id="dagevosRene">
 
-  <div class="container">
+  <div class="container px-5">
 
     <div class="row">
       <div class="col-sm-6">
@@ -15,7 +15,7 @@
     <div class="row">
 
       <div class="col-sm-6 ">
-        <div class="" style="margin-left:-15px;margin-right:-15px;">
+        <div class="" style="margin-left:-63px;margin-right:-15px;">
           <img style="width:100%;" class="" :src="reneProp.rene1.left.imgpath" alt="">
         </div>
       </div>
@@ -28,7 +28,7 @@
     </div>
   </div>
 
-  <div class="container">
+  <div class="container px-5 greyBackground">
 
     <div class="row">
 
@@ -53,7 +53,7 @@
     </div>
   </div>
 
-  <div class="container">
+  <div class="container px-5">
 
     <div class="row">
 
@@ -66,7 +66,7 @@
         </div>
       </div>
       <div class="col-sm-6 ">
-        <div class="" style="margin-left:-15px;margin-right:-15px;">
+        <div class="" style="margin-left:-15px;margin-right:-63px;">
           <img style="width:100%" class="" :src="reneProp.rene3.right.imgpath" alt="">
         </div>
       </div>

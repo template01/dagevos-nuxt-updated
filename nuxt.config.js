@@ -40,7 +40,7 @@ module.exports = {
 
   ],
 
-  plugins: ['~plugins/bootstrap-vue-plugin', '~/plugins/lodash-plugin.js', '~/plugins/vue-resource-plugin.js', {
+  plugins: ['~plugins/visibility-plugin.js','~plugins/bootstrap-vue-plugin', '~/plugins/lodash-plugin.js', '~/plugins/vue-resource-plugin.js', {
     src: '~/plugins/vueawesomeswiper-plugin.js',
     ssr: false
   }],
@@ -79,7 +79,7 @@ module.exports = {
           setTimeout(function() {
             window.location.href = to.hash;
           }, 1400)
-        }else{
+        } else {
           return position
         }
       }

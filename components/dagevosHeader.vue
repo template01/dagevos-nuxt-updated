@@ -3,31 +3,40 @@
 
   <div class="row">
     <div class="col-12" id="dagevosHeader">
-      <div class="hidden-sm-down pl-5 pr-5 pt-5 pb-5">
+      <div class="hidden-sm-down px-5">
 
 
 
-        <b-navbar toggleable type="inverse" variant="" style="padding:0;">
+        <!-- <b-navbar toggleable type="inverse" variant="" style="padding:0;"> -->
+        <div class="float-left py-5">
 
-          <nuxt-link to="/" class="navbar-brand">
+          <nuxt-link to="/" class="navbar-brand mainMenuHeader">
             <span>
-          <img src="~assets/svg/HetEchteWerk_CMYK.svg" />
+          <img class="" src="~assets/svg/HetEchteWerk_CMYK.svg" />
           </span>
           </nuxt-link>
+        </div>
 
 
-          <b-collapse is-nav id="nav_collapse">
+          <div class="float-right py-5">
+            <h4><nuxt-link class="ml-3 mr-3 mt-2 mb-2" to="/werkwijze">Werkwijze</nuxt-link></h4>
+            <h4><nuxt-link class="ml-3 mr-3 mt-2 mb-2" to="/aanbod">Aanbod</nuxt-link></h4>
+            <h4><nuxt-link class="ml-3 mr-3 mt-2 mb-2" to="/referenties">Referenties</nuxt-link></h4>
+            <h4><nuxt-link class="ml-3 mr-3 mt-2 mb-2" to="/about">Rene Dagevos</nuxt-link></h4>
+            <h4><nuxt-link class="ml-3 mr-3 mt-2 mb-0" to="/#contact">Contact</nuxt-link></h4>
+          </div>
+          <!-- <b-collapse is-nav id="nav_collapse">
             <b-nav is-nav-bar class="ml-auto">
               <b-nav-item-dropdown text="<h4>Menu</h4>" class="" right>
-                <h4><nuxt-link class="ml-3 mr-3 mt-2 mb-2" to="/wat">Aanbod</nuxt-link></h4>
-                <h4><nuxt-link class="ml-3 mr-3 mt-2 mb-2" to="/hoe">Services</nuxt-link></h4>
+                <h4><nuxt-link class="ml-3 mr-3 mt-2 mb-2" to="/werkwijze">Werkwijze</nuxt-link></h4>
+                <h4><nuxt-link class="ml-3 mr-3 mt-2 mb-2" to="/aanbod">Aanbod</nuxt-link></h4>
                 <h4><nuxt-link class="ml-3 mr-3 mt-2 mb-2" to="/referenties">Referenties</nuxt-link></h4>
-                <h4><nuxt-link class="ml-3 mr-3 mt-2 mb-2" to="/rene">Rene Dagevos</nuxt-link></h4>
+                <h4><nuxt-link class="ml-3 mr-3 mt-2 mb-2" to="/about">Rene Dagevos</nuxt-link></h4>
                 <h4><nuxt-link class="ml-3 mr-3 mt-2 mb-0" to="/#contact">Contact</nuxt-link></h4>
               </b-nav-item-dropdown>
             </b-nav>
-          </b-collapse>
-        </b-navbar>
+          </b-collapse> -->
+        <!-- </b-navbar> -->
 
       </div>
 
@@ -35,7 +44,7 @@
       <b-navbar class="hidden-sm-up beigeBackground fixed-top  " toggleable type="" id="" type="light">
         <div class="px-5">
           <div class="px-5">
-              <b-nav-toggle class="mt-1 mr-5" target="nav_collapse1"></b-nav-toggle>
+            <b-nav-toggle class="mt-1" target="nav_collapse1"></b-nav-toggle>
 
 
             <b-link class="navbar-brand" to="/">
@@ -43,11 +52,11 @@
             </b-link>
 
             <b-collapse is-nav id="nav_collapse1">
-              <b-nav is-nav-bar class="ml-auto">
-                <nuxt-link class="nav-link" to="/wat">Aanbod</nuxt-link>
-                <nuxt-link class="nav-link" to="/hoe">Services</nuxt-link>
+              <b-nav is-nav-bar class="ml-auto mt-5 pt-5">
+                <nuxt-link class="nav-link" to="/werkwijze">Werkwijze</nuxt-link>
+                <nuxt-link class="nav-link" to="/aanbod">Aanbod</nuxt-link>
                 <nuxt-link class="nav-link" to="/referenties">Referenties</nuxt-link>
-                <nuxt-link class="nav-link" to="/rene">Rene Dagevos</nuxt-link>
+                <nuxt-link class="nav-link" to="/about">Rene Dagevos</nuxt-link>
                 <nuxt-link class="nav-link" to="/#contact">Contact</nuxt-link>
 
               </b-nav>
@@ -66,7 +75,6 @@
 
     </div>
     <transition name="slide">
-      <div>
 
         <b-navbar v-if="!hideNav" toggleable type="" id="dagevosHeaderFixed" class="fixed-top hidden-sm-down col-12 container" type="light" style="background:#F6FBFF;">
           <div class="  px-5" style="width:100%">
@@ -75,19 +83,17 @@
 
               <b-nav-toggle class="mt-1" target="nav_collapse2"></b-nav-toggle>
 
-              <b-link class="navbar-brand" to="/" style="float:left; width: 28%; max-width:300px">
+              <b-link class="navbar-brand" to="/" style="float:left; width: 28%; max-width:274px">
                 <span><img  style="width:100%" src="~assets/svg/HetEchteWerk_CMYK_SM.svg"/></span>
               </b-link>
               <div style="float:right; width:auto%">
 
                 <b-collapse is-nav id="nav_collapse2" style="">
                   <b-nav is-nav-bar class="ml-auto">
-                    <dagevosMenuItems></dagevosMenuItems>
-
-                    <nuxt-link class="nav-link" to="/wat">Aanbod</nuxt-link>
-                    <nuxt-link class="nav-link" to="/hoe">Services</nuxt-link>
+                    <nuxt-link class="nav-link" to="/werkwijze">Werkwijze</nuxt-link>
+                    <nuxt-link class="nav-link" to="/aanbod">Aanbod</nuxt-link>
                     <nuxt-link class="nav-link" to="/referenties">Referenties</nuxt-link>
-                    <nuxt-link class="nav-link" to="/rene">Rene Dagevos</nuxt-link>
+                    <nuxt-link class="nav-link" to="/about">Rene Dagevos</nuxt-link>
                     <nuxt-link class="nav-link" to="/#contact">Contact</nuxt-link>
 
                   </b-nav>
@@ -97,8 +103,6 @@
 
           </div>
         </b-navbar>
-      </div>
-
     </transition>
 
   </div>
@@ -168,6 +172,10 @@ export default {
         }
     }
 
+    .navbar-toggler-right{
+      right: 2rem !important;
+    }
+
     .navbar .dropdown-menu a,
     .navbar-nav a {
         &:hover {
@@ -215,6 +223,21 @@ export default {
         height: 40px;
         width: auto;
     }
+
+    .mainMenuHeader{
+      img{
+        width: 450px;
+      }
+    }
+
+    h4 {
+      margin-bottom: 0.25rem;
+      &:last-of-type{
+        margin-bottom: 0px;
+      }
+    }
+
+
 
     .dropdown-menu {
         width: calc(25vw - 38px);

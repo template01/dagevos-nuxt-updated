@@ -1,9 +1,10 @@
 <template>
 <div id="dagevosReferenties" class="">
 
-  <div class="container">
+  <div class="container  px-5">
 
     <div class="row">
+
       <div class="col-sm-6">
         <div class="p-5" style="">
           <div class="">
@@ -14,14 +15,21 @@
         </div>
 
       </div>
-      <div class="col-sm-6" style="margin-left:-15px;margin-right:-15px;">
-        <img style="max-width:calc(100% + 45px)" class="" :src="refsProp.referenties1.right.imgpath" alt="">
+
+      <div class="col-sm-6">
+
+        <div class="float-right" style="margin-right:-63px; margin-left:-15px;">
+          <img style="max-width:100%;" class="" :src="refsProp.referenties1.right.imgpath" alt="">
+        </div>
       </div>
+
+
+
     </div>
 
   </div>
 
-  <div class="container beigeBackground">
+  <div class="container  px-5 beigeBackground">
     <div class="row">
 
 
@@ -54,33 +62,11 @@
 
     </div>
   </div>
-  <!--
-  <div class="container">
 
-    <div class="row">
-      <div class="col-sm-6">
-        <div class="p-5" style="">
-          <div class="">
-            <h4 class="" v-html="opdrachtsProp.wie.title">Hoe werkt Het echte Werkt?</h4>
-            <p v-html="opdrachtsProp.wie.blurb">
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6">
-        <div class="p-5" style="">
-          <div class="">
-            <div class="" v-html="opdrachtsProp.wie.right.content"></div>
-          </div>
-        </div>
-      </div>
-    </div>
 
-  </div> -->
+  <div class="container  px-5 greyBackground" style="">
 
-  <div class="container" style="">
-
-    <div class="row blueBackground" style="">
+    <div class="row " style="">
 
       <div class="col-sm-2 p-4 flexer" v-for="opdrachtgever in opdrachtsProp.opdrachtgevers">
         <img style="max-width:100%;" class="flexerContentCenter" :src="opdrachtgever.imgpath" alt="">
