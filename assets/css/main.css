@@ -12,7 +12,7 @@ body {
 
 @media (max-width:991px) {
   body {
-    background: #F6FBFF !important;
+    /*background: #F6FBFF !important;*/
   }
 
 }
@@ -58,6 +58,27 @@ p, ul, ol {
   line-height: 1.4;
   font-weight: 400;
 }
+@media (max-width:500px) {
+
+  h1{
+    font-size: 2.4rem !important;
+
+  }
+  h4 {
+      font-size: 1.2rem !important;
+  }
+  p, ul, ol {
+    color: #552E87;
+    font-size: 16px;
+    letter-spacing: -0.02rem;
+    font-family: 'Aileron';
+    line-height: 1.4;
+    font-weight: 400;
+  }
+}
+
+
+
 
  input, .input-group, .input-group-addon {
     background-color: transparent !important;
@@ -77,9 +98,29 @@ li {
   margin: 1rem;
 }
 
-span {
-
+.pullimage-right{
+  margin-right:-63px;
+  margin-left:-15px;
 }
+@media (max-width:992px) {
+  .pullimage-right{
+    margin-right:-23px;
+    margin-left:-23px;
+  }
+}
+
+
+.pullimage-left{
+  margin-left:-63px;
+  margin-right:-15px;
+}
+@media (max-width:992px) {
+  .pullimage-left{
+    margin-left:-23px;
+    margin-right:-23px;
+  }
+}
+
 
 p.smallText {
   font-size: 17px;
@@ -111,11 +152,14 @@ a {
   color: grey
 }
 
-.buttonBlue{
+
+
+
+.buttonBlue, .buttonBlueNoAnimate{
   background: #5DA6E8;
   color: white;
   transition: all .5s;
-
+  cursor: pointer;
 }
 .buttonBlue:hover{
   transform: translateX(15px);
@@ -200,6 +244,14 @@ a {
 
 
 @media (max-width:991px) {
+
+  .pt-mobile{
+    padding-top: 1.5rem !important;
+  }
+
+  .pb-mobile{
+    padding-bottom: 1.5rem !important;
+  }
 
   .spacerTopS {
     margin-top: 50px;

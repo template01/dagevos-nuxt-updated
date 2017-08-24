@@ -1,9 +1,9 @@
 <template>
 <div id="dagevosRene">
 
-  <div class="container px-5">
+  <div class="container pt-mobile pb-mobile  px-5">
 
-    <div class="row">
+    <div class="row pb-mobile ">
       <div class="col-sm-6">
         <div class="p-5" style="">
           <div class="">
@@ -15,11 +15,11 @@
     <div class="row">
 
       <div class="col-sm-6 ">
-        <div class="" style="margin-left:-63px;margin-right:-15px;">
+        <div class="pullimage-left">
           <img style="width:100%;" class="" :src="reneProp.rene1.left.imgpath" alt="">
         </div>
       </div>
-      <div class="col-sm-6 ">
+      <div class="col-sm-6 pt-mobile ">
         <div class="p-5" style="">
           <div class="" v-html="reneProp.rene1.right.content">
           </div>
@@ -28,7 +28,7 @@
     </div>
   </div>
 
-  <div class="container px-5 greyBackground">
+  <div class="container pt-mobile pb-mobile  px-5 greyBackground">
 
     <div class="row">
 
@@ -53,7 +53,7 @@
     </div>
   </div>
 
-  <div class="container px-5">
+  <div class="container pt-mobile  px-5">
 
     <div class="row">
 
@@ -66,7 +66,7 @@
         </div>
       </div>
       <div class="col-sm-6 ">
-        <div class="" style="margin-left:-15px;margin-right:-63px;">
+        <div class="pullimage-right" >
           <img style="width:100%" class="" :src="reneProp.rene3.right.imgpath" alt="">
         </div>
       </div>

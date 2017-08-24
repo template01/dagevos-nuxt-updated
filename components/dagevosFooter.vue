@@ -1,5 +1,5 @@
 <template>
-<div id="dagevosFooter" class="container  px-5">
+<div id="dagevosFooter" class="container  px-5 pt-mobile">
 
   <div class="row">
     <div class="col-sm-6">

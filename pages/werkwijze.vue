@@ -1,51 +1,47 @@
 <template>
-<div>
-  <dagevosHeader></dagevosHeader>
-  <dagevosWat :watProp="wat" :opdrachtsProp="opdrachts" ></dagevosWat>
-  <dagevosFooter></dagevosFooter>
+  <div>
+    <dagevosHeader></dagevosHeader>
+    <dagevosWerkwijze :hoeProp="hoe"></dagevosWerkwijze>
+    <dagevosFooter></dagevosFooter>
 
-</div>
+  </div>
 </template>
 
 <script>
 import Logo from '~/components/Logo.vue'
 import dagevosHeader from '~/components/dagevosHeader.vue'
-import dagevosWat from '~/components/dagevosWat.vue'
+import dagevosWerkwijze from '~/components/dagevosWerkwijze.vue'
 import dagevosFooter from '~/components/dagevosFooter.vue'
-
-import opdrachts from '~/static/content/json/opdrachtgevers.json'
-import wat from '~/static/content/json/wat.json'
-
-
 import axios from 'axios'
+
+import hoe from '~/static/content/json/hoe.json'
+
 
 export default {
   components: {
     Logo,
     dagevosHeader,
-    dagevosWat,
+    dagevosWerkwijze,
     dagevosFooter
   },
 
-  data: function() {
+  data: function () {
     return {
-      wat,
-      opdrachts
+      hoe
     }
   },
-  //
+
+
   // async asyncData({
   //   query,
   //   error
   // }) {
-  //   let [watRes, opdrachtsRes] = await Promise.all([
-  //     axios.get('http://werkt.template01.info/json/wat.json'),
-  //     axios.get('http://werkt.template01.info/json/opdrachtgevers.json'),
+  //   let [hoeRes] = await Promise.all([
+  //     axios.get('http://werkt.template01.info/json/hoe.json'),
   //
   //   ])
   //   return {
-  //     wat: watRes.data,
-  //     opdrachts: opdrachtsRes.data,
+  //     hoe: hoeRes.data,
   //   }
   // }
 

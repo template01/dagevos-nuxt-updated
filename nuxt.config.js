@@ -31,10 +31,10 @@ module.exports = {
   },
   css: [
     // { src: '~assets/css/main1.scss', lang: 'scss' },
-    '~assets/css/main.css',
     '~assets/css/font-awesome.min.css',
     '~/assets/fonts/coolvetica+aileron/stylesheet.css',
     '~assets/css/compiledbootstrap/bootstrap.css',
+    '~assets/css/main.css'
     //'bootstrap/dist/css/bootstrap.css',
     //'bootstrap-vue/dist/bootstrap-vue.css'
 

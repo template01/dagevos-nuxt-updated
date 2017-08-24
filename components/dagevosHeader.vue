@@ -66,7 +66,7 @@
 
       </b-navbar>
       <!-- CLONE FROM ABOVE TO ADD SPACING -->
-      <b-navbar class="hidden-sm-up beigeBackground " toggleable type="" id="" type="light">
+      <b-navbar class="hidden-sm-up beigeBackground " toggleable type="" id="" type="light" style="opacity: 0;">
         <b-link class="navbar-brand" to="/">
           <span><img class="brand-sm" src="~assets/svg/HetEchteWerk_CMYK_SM.svg"/></span>
         </b-link>
@@ -174,6 +174,7 @@ export default {
 
     .navbar-toggler-right{
       right: 2rem !important;
+
     }
 
     .navbar .dropdown-menu a,
@@ -223,6 +224,19 @@ export default {
         height: 40px;
         width: auto;
     }
+    @media screen and (max-width: 500px) {
+      .brand-sm {
+          height: 35px;
+          width: auto;
+      }
+
+
+          .navbar-toggler-right{
+            padding-left:2px;
+            padding-right: 2px;
+          }
+    }
+
 
     .mainMenuHeader{
       img{
