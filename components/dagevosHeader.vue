@@ -10,7 +10,7 @@
         <!-- <b-navbar toggleable type="inverse" variant="" style="padding:0;"> -->
         <div class="float-left py-5">
 
-          <nuxt-link to="/" class="navbar-brand mainMenuHeader">
+          <nuxt-link :to="{ path: '/'}" class="navbar-brand mainMenuHeader">
             <span>
           <img class="" src="~assets/svg/HetEchteWerk_CMYK.svg" />
           </span>
@@ -25,6 +25,8 @@
             <h4><nuxt-link class="ml-3 mr-3 mt-2 mb-2" to="/about">Rene Dagevos</nuxt-link></h4>
             <h4><nuxt-link class="ml-3 mr-3 mt-2 mb-0" to="/#contact">Contact</nuxt-link></h4>
           </div>
+
+
           <!-- <b-collapse is-nav id="nav_collapse">
             <b-nav is-nav-bar class="ml-auto">
               <b-nav-item-dropdown text="<h4>Menu</h4>" class="" right>
@@ -47,7 +49,7 @@
             <b-nav-toggle class="mt-1" target="nav_collapse1"></b-nav-toggle>
 
 
-            <b-link class="navbar-brand" to="/">
+            <b-link class="navbar-brand" :to="{ path: '/'}">
               <span><img class="brand-sm" src="~assets/svg/HetEchteWerk_CMYK_SM.svg"/></span>
             </b-link>
 
@@ -67,7 +69,7 @@
       </b-navbar>
       <!-- CLONE FROM ABOVE TO ADD SPACING -->
       <b-navbar class="hidden-sm-up beigeBackground " toggleable type="" id="" type="light" style="opacity: 0;">
-        <b-link class="navbar-brand" to="/">
+        <b-link class="navbar-brand" :to="{ path: '/',hash:'#contact'}">
           <span><img class="brand-sm" src="~assets/svg/HetEchteWerk_CMYK_SM.svg"/></span>
         </b-link>
       </b-navbar>
@@ -77,13 +79,13 @@
     <transition name="slide">
 
         <b-navbar v-if="!hideNav" toggleable type="" id="dagevosHeaderFixed" class="fixed-top hidden-sm-down col-12 container" type="light" style="background:#F6FBFF;">
-          <div class="  px-5" style="width:100%">
+          <div class="row px-5" style="width:100%">
 
-            <div class="row pl-5 pr-5" style="width:100%; display: block;">
+            <div class="col-sm-12" style="width:100%; display: block;">
 
               <b-nav-toggle class="mt-1" target="nav_collapse2"></b-nav-toggle>
 
-              <b-link class="navbar-brand" to="/" style="float:left; width: 28%; max-width:274px">
+              <b-link class="navbar-brand" :to="{ path: '/'}" style="float:left; width: 28%; max-width:274px">
                 <span><img  style="width:100%" src="~assets/svg/HetEchteWerk_CMYK_SM.svg"/></span>
               </b-link>
               <div style="float:right; width:auto%">

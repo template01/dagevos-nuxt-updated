@@ -49,7 +49,7 @@
     </div>
   </div>
 
-    <div class="container pt-mobile px-5">
+    <div id="doelgroep" class="container pt-mobile px-5">
 
       <div class="row">
         <div class="col-sm-6">

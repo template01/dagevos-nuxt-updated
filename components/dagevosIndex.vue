@@ -123,24 +123,31 @@
     </div>
   </div>
 
-
+<!-- DOELGROEP + REFERENTIES -->
   <div class="container pb-5 px-5">
 
     <div class="row">
       <div class="col-sm-6 pb-mobile">
         <div class="p-5" style="background-color: transparent; border-color: transparent;">
-          <div class="">
+          <div class="pb-5 pb-mobile">
             <h4 class="mb-5" v-html="indexIndexProp.wie.title"></h4>
 
-            <div v-html="indexIndexProp.rene.content">
-
-            </div>
-            <!-- <p class="" v-html="indexOpdrachtsProp.wie.blurb"></p> -->
+            <div v-html="indexIndexProp.wie.content"> </div>
 
             <div class=" mt-1 float-left buttonImitate float-right buttonBlue" style="border:0px;">
-              <nuxt-link to="/referenties">Lees referenties <i class="fa fa-hand-o-right" aria-hidden="true"></i></nuxt-link>
+              <nuxt-link :to="{ path: '/aanbod',hash:'doelgroep'}">Lees verder over doelgroep <i class="fa fa-hand-o-right" aria-hidden="true"></i></nuxt-link>
             </div>
           </div>
+          <div class="pt-mobile pt-5">
+            <h4 class="mb-5" v-html="indexIndexProp.referenties.title"></h4>
+
+            <div v-html="indexIndexProp.referenties.content"> </div>
+
+            <div class=" mt-1 float-left buttonImitate float-right buttonBlue" style="border:0px;">
+              <nuxt-link :to="{ path: '/aanbod',hash:'doelgroep'}">Lees referenties <i class="fa fa-hand-o-right" aria-hidden="true"></i></nuxt-link>
+            </div>
+          </div>
+
         </div>
       </div>
       <div class="col-sm-6">

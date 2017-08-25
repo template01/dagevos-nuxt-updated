@@ -3,7 +3,7 @@ module.exports = {
    ** Headers of the page
    */
   head: {
-    title: 'starter',
+    title: 'Het Echte Werkt!',
     meta: [{
         charset: 'utf-8'
       },
@@ -45,46 +45,46 @@ module.exports = {
     ssr: false
   }],
 
-
-  router: {
-    scrollBehavior: function(to, from, savedPosition) {
-      if (savedPosition) {
-        return savedPosition
-        alert(savedPosition)
-
-      } else {
-        let position = {}
-        // if no children detected
-        if (to.matched.length < 2) {
-          // scroll to the top of the page
-          position = {
-            x: 0,
-            y: 0
-          }
-        } else if (to.matched.some((r) => r.components.default.options.scrollToTop)) {
-          // if one of the children has scrollToTop option set to true
-          position = {
-            x: 0,
-            y: 0
-          }
-        }
-        // if link has anchor,  scroll to anchor by returning the selector
-        if (to.hash) {
-          setTimeout(function() {
-            window.location.href = to.hash;
-          }, 100)
-          setTimeout(function() {
-            window.location.href = to.hash;
-          }, 500)
-          setTimeout(function() {
-            window.location.href = to.hash;
-          }, 1400)
-        } else {
-          return position
-        }
-      }
-    }
-  },
+  // 
+  // router: {
+  //   scrollBehavior: function(to, from, savedPosition) {
+  //     if (savedPosition) {
+  //       return savedPosition
+  //       alert(savedPosition)
+  //
+  //     } else {
+  //       let position = {}
+  //       // if no children detected
+  //       if (to.matched.length < 2) {
+  //         // scroll to the top of the page
+  //         position = {
+  //           x: 0,
+  //           y: 0
+  //         }
+  //       } else if (to.matched.some((r) => r.components.default.options.scrollToTop)) {
+  //         // if one of the children has scrollToTop option set to true
+  //         position = {
+  //           x: 0,
+  //           y: 0
+  //         }
+  //       }
+  //       // if link has anchor,  scroll to anchor by returning the selector
+  //       if (to.hash) {
+  //         setTimeout(function() {
+  //           window.location.href = to.hash;
+  //         }, 100)
+  //         setTimeout(function() {
+  //           window.location.href = to.hash;
+  //         }, 500)
+  //         setTimeout(function() {
+  //           window.location.href = to.hash;
+  //         }, 1400)
+  //       } else {
+  //         return position
+  //       }
+  //     }
+  //   }
+  // },
 
 
   /*
