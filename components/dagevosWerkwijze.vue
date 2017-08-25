@@ -123,5 +123,9 @@ h6 {
         text-decoration: none;
         color: inherit !important;
     }
+
+    ul {
+      list-style-type: none;
+  }
 }
 </style>
