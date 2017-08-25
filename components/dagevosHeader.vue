@@ -23,7 +23,7 @@
             <h4><nuxt-link class="ml-3 mr-3 mt-2 mb-2" to="/werkwijze">Werkwijze</nuxt-link></h4>
             <h4><nuxt-link class="ml-3 mr-3 mt-2 mb-2" to="/referenties">Referenties</nuxt-link></h4>
             <h4><nuxt-link class="ml-3 mr-3 mt-2 mb-2" to="/about">Rene Dagevos</nuxt-link></h4>
-            <h4><nuxt-link class="ml-3 mr-3 mt-2 mb-0" to="/#contact">Contact</nuxt-link></h4>
+            <h4><nuxt-link class="ml-3 mr-3 mt-2 mb-0" :to="{ path: '/',hash:'#contact'}">Contact</nuxt-link></h4>
           </div>
 
 
@@ -59,7 +59,7 @@
                 <nuxt-link class="nav-link" to="/werkwijze">Werkwijze</nuxt-link>
                 <nuxt-link class="nav-link" to="/referenties">Referenties</nuxt-link>
                 <nuxt-link class="nav-link" to="/about">Rene Dagevos</nuxt-link>
-                <nuxt-link class="nav-link" to="/#contact">Contact</nuxt-link>
+                <nuxt-link class="nav-link" :to="{ path: '/',hash:'#contact'}">Contact</nuxt-link>
 
               </b-nav>
             </b-collapse>
@@ -69,7 +69,7 @@
       </b-navbar>
       <!-- CLONE FROM ABOVE TO ADD SPACING -->
       <b-navbar class="hidden-sm-up beigeBackground " toggleable type="" id="" type="light" style="opacity: 0;">
-        <b-link class="navbar-brand" :to="{ path: '/',hash:'#contact'}">
+        <b-link class="navbar-brand" :to="{ path: '/'}">
           <span><img class="brand-sm" src="~assets/svg/HetEchteWerk_CMYK_SM.svg"/></span>
         </b-link>
       </b-navbar>
@@ -96,7 +96,7 @@
                     <nuxt-link class="nav-link" to="/werkwijze">Werkwijze</nuxt-link>
                     <nuxt-link class="nav-link" to="/referenties">Referenties</nuxt-link>
                     <nuxt-link class="nav-link" to="/about">Rene Dagevos</nuxt-link>
-                    <nuxt-link class="nav-link" to="/#contact">Contact</nuxt-link>
+                    <nuxt-link class="nav-link" :to="{ path: '/',hash:'#contact'}">Contact</nuxt-link>
 
                   </b-nav>
                 </b-collapse>
