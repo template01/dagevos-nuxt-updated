@@ -19,8 +19,8 @@
 
 
           <div class="float-right py-5">
-            <h4><nuxt-link class="ml-3 mr-3 mt-2 mb-2" to="/werkwijze">Werkwijze</nuxt-link></h4>
             <h4><nuxt-link class="ml-3 mr-3 mt-2 mb-2" to="/aanbod">Aanbod</nuxt-link></h4>
+            <h4><nuxt-link class="ml-3 mr-3 mt-2 mb-2" to="/werkwijze">Werkwijze</nuxt-link></h4>
             <h4><nuxt-link class="ml-3 mr-3 mt-2 mb-2" to="/referenties">Referenties</nuxt-link></h4>
             <h4><nuxt-link class="ml-3 mr-3 mt-2 mb-2" to="/about">Rene Dagevos</nuxt-link></h4>
             <h4><nuxt-link class="ml-3 mr-3 mt-2 mb-0" to="/#contact">Contact</nuxt-link></h4>
@@ -53,8 +53,8 @@
 
             <b-collapse is-nav id="nav_collapse1">
               <b-nav is-nav-bar class="ml-auto mt-5 pt-5">
-                <nuxt-link class="nav-link" to="/werkwijze">Werkwijze</nuxt-link>
                 <nuxt-link class="nav-link" to="/aanbod">Aanbod</nuxt-link>
+                <nuxt-link class="nav-link" to="/werkwijze">Werkwijze</nuxt-link>
                 <nuxt-link class="nav-link" to="/referenties">Referenties</nuxt-link>
                 <nuxt-link class="nav-link" to="/about">Rene Dagevos</nuxt-link>
                 <nuxt-link class="nav-link" to="/#contact">Contact</nuxt-link>
@@ -90,8 +90,8 @@
 
                 <b-collapse is-nav id="nav_collapse2" style="">
                   <b-nav is-nav-bar class="ml-auto">
-                    <nuxt-link class="nav-link" to="/werkwijze">Werkwijze</nuxt-link>
                     <nuxt-link class="nav-link" to="/aanbod">Aanbod</nuxt-link>
+                    <nuxt-link class="nav-link" to="/werkwijze">Werkwijze</nuxt-link>
                     <nuxt-link class="nav-link" to="/referenties">Referenties</nuxt-link>
                     <nuxt-link class="nav-link" to="/about">Rene Dagevos</nuxt-link>
                     <nuxt-link class="nav-link" to="/#contact">Contact</nuxt-link>

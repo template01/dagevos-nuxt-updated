@@ -151,12 +151,12 @@
               <img style="max-width:100%;" class="flexerContentCenter" :src="opdrachtgever.imgpath" alt="">
             </div>
           </div>
-          <div class="row mt-5 hidden-sm-up pt-mobile">
-            <div class="flexer"  style="width:50%; padding-left: 5%; padding-right: 5%; padding-top: 1rem; padding-bottom: 1rem;" v-for="opdrachtgever in indexOpdrachtsProp.opdrachtgevers">
-              <img style="width:100%;" class="flexerContentCenter" :src="opdrachtgever.imgpath" alt="">
-            </div>
-          </div>
           <!-- <nuxt-link to="#" class="btn btn-primary">Go somewhere</nuxt-link> -->
+        </div>
+      </div>
+      <div class="row mt-5 hidden-sm-up pt-mobile">
+        <div class="flexer"  style="width:50%; padding-left: 5%; padding-right: 5%; padding-top: 1rem; padding-bottom: 1rem;" v-for="opdrachtgever in indexOpdrachtsProp.opdrachtgevers">
+          <img style="width:100%;" class="flexerContentCenter" :src="opdrachtgever.imgpath" alt="">
         </div>
       </div>
     </div>
