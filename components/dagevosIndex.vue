@@ -144,7 +144,7 @@
             <div v-html="indexIndexProp.referenties.content"> </div>
 
             <div class=" mt-1 float-left buttonImitate float-right buttonBlue" style="border:0px;">
-              <nuxt-link :to="{ path: '/aanbod',hash:'doelgroep'}">Lees referenties <i class="fa fa-hand-o-right" aria-hidden="true"></i></nuxt-link>
+              <nuxt-link to="/referenties">Lees referenties <i class="fa fa-hand-o-right" aria-hidden="true"></i></nuxt-link>
             </div>
           </div>
 
