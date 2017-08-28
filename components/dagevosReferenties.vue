@@ -143,8 +143,8 @@ export default {
       showRef: false,
       swiperOption: {
         notNextTick: true,
-        // autoplay: 3000,
-        // grabCursor: true,
+        autoplay: 3000,
+        grabCursor: true,
         setWrapperSize: true,
         autoHeight: true,
         pagination: '.swiper-pagination',
