@@ -12,7 +12,7 @@
       </div>
     </div>
   </div> -->
-  <div :style="{'background':'url(\'FIRST_Rotterdam_Kantoren_uitzicht2.jpg\')'}" class="index-full-cover heightTall hidden-sm-down">
+  <div :style="{'background':'url(\'/content/img/FIRST_Rotterdam_Kantoren_uitzicht2.jpg\')'}" class="index-full-cover heightTall hidden-sm-down">
   </div>
   <div class="container px-5 hidden-sm-up">
 
