@@ -23,7 +23,7 @@
             <h4><nuxt-link class="ml-3 mr-3 mt-2 mb-2" to="/werkwijze">Werkwijze</nuxt-link></h4>
             <h4><nuxt-link class="ml-3 mr-3 mt-2 mb-2" to="/referenties">Referenties</nuxt-link></h4>
             <h4><nuxt-link class="ml-3 mr-3 mt-2 mb-2" to="/about">Rene Dagevos</nuxt-link></h4>
-            <h4><nuxt-link class="ml-3 mr-3 mt-2 mb-0" :to="{ path: '/',hash:'#contact'}">Contact</nuxt-link></h4>
+            <h4><nuxt-link class="ml-3 mr-3 mt-2 mb-0" :to="{ path: '/',hash:'contact'}">Contact</nuxt-link></h4>
           </div>
 
 
@@ -34,7 +34,7 @@
                 <h4><nuxt-link class="ml-3 mr-3 mt-2 mb-2" to="/aanbod">Aanbod</nuxt-link></h4>
                 <h4><nuxt-link class="ml-3 mr-3 mt-2 mb-2" to="/referenties">Referenties</nuxt-link></h4>
                 <h4><nuxt-link class="ml-3 mr-3 mt-2 mb-2" to="/about">Rene Dagevos</nuxt-link></h4>
-                <h4><nuxt-link class="ml-3 mr-3 mt-2 mb-0" to="/#contact">Contact</nuxt-link></h4>
+                <h4><nuxt-link class="ml-3 mr-3 mt-2 mb-0" to="/contact">Contact</nuxt-link></h4>
               </b-nav-item-dropdown>
             </b-nav>
           </b-collapse> -->
@@ -59,7 +59,7 @@
                 <nuxt-link class="nav-link" to="/werkwijze">Werkwijze</nuxt-link>
                 <nuxt-link class="nav-link" to="/referenties">Referenties</nuxt-link>
                 <nuxt-link class="nav-link" to="/about">Rene Dagevos</nuxt-link>
-                <nuxt-link class="nav-link" :to="{ path: '/',hash:'#contact'}">Contact</nuxt-link>
+                <nuxt-link class="nav-link" :to="{ path: '/',hash:'contact'}">Contact</nuxt-link>
 
               </b-nav>
             </b-collapse>
@@ -96,7 +96,7 @@
                     <nuxt-link class="nav-link" to="/werkwijze">Werkwijze</nuxt-link>
                     <nuxt-link class="nav-link" to="/referenties">Referenties</nuxt-link>
                     <nuxt-link class="nav-link" to="/about">Rene Dagevos</nuxt-link>
-                    <nuxt-link class="nav-link" :to="{ path: '/',hash:'#contact'}">Contact</nuxt-link>
+                    <nuxt-link class="nav-link" :to="{ path: '/',hash:'contact'}">Contact</nuxt-link>
 
                   </b-nav>
                 </b-collapse>

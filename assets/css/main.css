@@ -6,7 +6,14 @@ body {
   background: linear-gradient(to right, red #F6FBFF%, #ECECEC 50%);*/
   overflow-x: hidden;
   color: #552E87;
-} 
+}
+
+.page-enter-active, .page-leave-active {
+  transition: opacity .150s;
+}
+.page-enter, .page-leave-to {
+  opacity: 0.150;
+}
 
 
 

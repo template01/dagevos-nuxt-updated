@@ -133,9 +133,10 @@
             <h4 class="mb-5" v-html="indexIndexProp.wie.title"></h4>
 
             <div v-html="indexIndexProp.wie.content"> </div>
-
-            <div class=" mt-1 float-left buttonImitate float-right buttonBlue" style="border:0px;">
-              <nuxt-link :to="{ path: '/aanbod',hash:'doelgroep'}">Lees verder over doelgroep <i class="fa fa-hand-o-right" aria-hidden="true"></i></nuxt-link>
+            <div class="pb-mobile ">
+              <div class=" mt-1  float-left buttonImitate float-right buttonBlue" style="border:0px;">
+                <nuxt-link :to="{ path: '/aanbod', hash:'doelgroep'}">Lees verder over doelgroep <i class="fa fa-hand-o-right" aria-hidden="true"></i></nuxt-link>
+              </div>
             </div>
           </div>
           <div class="pt-mobile pt-5">
