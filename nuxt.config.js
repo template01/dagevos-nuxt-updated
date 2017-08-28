@@ -70,15 +70,15 @@ module.exports = {
         }
         // if link has anchor,  scroll to anchor by returning the selector
         if (to.hash) {
-          setTimeout(function() {
-            window.location.href = to.hash;
-          }, 100)
-          setTimeout(function() {
-            window.location.href = to.hash;
-          }, 500)
-          setTimeout(function() {
-            window.location.href = to.hash;
-          }, 1400)
+          // setTimeout(function() {
+          //   window.location.href = to.hash;
+          // }, 100)
+          // setTimeout(function() {
+          //   window.location.href = to.hash;
+          // }, 500)
+          // setTimeout(function() {
+          //   window.location.href = to.hash;
+          // }, 1400)
         } else {
           return position
         }
