@@ -1,39 +1,13 @@
 <template>
 <div id="dagevosReferenties" class="">
 
-  <div class="container  px-5 pt-mobile">
-
-    <div class="row">
-
-      <div class="col-sm-6 ">
-        <div class="p-5" style="">
-          <div class="">
-            <h3 c class="pb-5" v-html="refsProp.referenties1.left.title">Hoe werkt Het echte Werkt?</h3>
-            <div v-html="refsProp.referenties1.left.content">
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-      <div class="col-sm-6">
-
-        <div class="float-right pullimage-right" style="">
-          <img style="max-width:100%;" class="" :src="refsProp.referenties1.right.imgpath" alt="">
-        </div>
-      </div>
 
 
-
-    </div>
-
-  </div>
-
-  <div class="container  px-5 beigeBackground">
+  <div class="container  px-5 greyBackground">
     <div class="row">
 
 
-      <swiper class="beigeBackground" :options="swiperOption" ref="mySwiper" style="">
+      <swiper class="greyBackground" :options="swiperOption" ref="mySwiper" style="">
         <swiper-slide class="" v-for="(referentie, index) in refsProp.referenties" v-bind:key="index">
           <div class="col-sm-6 float-left">
             <div class="p-5" style="">

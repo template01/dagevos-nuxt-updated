@@ -4,10 +4,6 @@
   <div class="row">
     <div class="col-12" id="dagevosHeader">
       <div class="hidden-sm-down px-5">
-
-
-
-        <!-- <b-navbar toggleable type="inverse" variant="" style="padding:0;"> -->
         <div class="float-left py-5">
 
           <nuxt-link :to="{ path: '/'}" class="navbar-brand mainMenuHeader">
@@ -19,26 +15,20 @@
 
 
           <div class="float-right py-5">
-            <h4><nuxt-link class="ml-3 mr-3 mt-2 mb-2" to="/aanbod">Aanbod</nuxt-link></h4>
+            <!-- <h4><nuxt-link class="ml-3 mr-3 mt-2 mb-2" to="/aanbod">Aanbod</nuxt-link></h4>
             <h4><nuxt-link class="ml-3 mr-3 mt-2 mb-2" to="/werkwijze">Werkwijze</nuxt-link></h4>
             <h4><nuxt-link class="ml-3 mr-3 mt-2 mb-2" to="/referenties">Referenties</nuxt-link></h4>
             <h4><nuxt-link class="ml-3 mr-3 mt-2 mb-2" to="/about">Rene Dagevos</nuxt-link></h4>
-            <h4><nuxt-link class="ml-3 mr-3 mt-2 mb-0" :to="{ path: '/',hash:'contact'}">Contact</nuxt-link></h4>
+            <h4><nuxt-link class="ml-3 mr-3 mt-2 mb-0" :to="{ path: '/',hash:'contact'}">Contact</nuxt-link></h4> -->
+            <p class="ml-3 mr-3 mb-2"><i class="fa fa-caret-right pr-1 pl-1" aria-hidden="true"></i> <nuxt-link to="/leiderschapscoaching">Individuele leiderschapscoaching</nuxt-link></p>
+            <p class="ml-3 mr-3 mb-2"><i class="fa fa-caret-right pr-1 pl-1" aria-hidden="true"></i> <nuxt-link to="/teamcoaching">Teamcoaching</nuxt-link></p>
+            <p class="ml-3 mr-3 mb-2"><i class="fa fa-caret-right pr-1 pl-1" aria-hidden="true"></i> <nuxt-link to="/leiderschapstrajecten">Leiderschapstrajecten</nuxt-link></p>
+            <p class="ml-3 mr-3 mb-2"><i class="fa fa-caret-right pr-1 pl-1" aria-hidden="true"></i> <nuxt-link to="/visie">Visie</nuxt-link></p>
+            <p class="ml-3 mr-3 mb-2"><i class="fa fa-caret-right pr-1 pl-1" aria-hidden="true"></i> <nuxt-link to="/ervaringen">Ervaringen</nuxt-link></p>
+            <p class="ml-3 mr-3 mb-2"><i class="fa fa-caret-right pr-1 pl-1" aria-hidden="true"></i> <nuxt-link to="/rene">René Dagevos</nuxt-link></p>
+            <p class="ml-3 mr-3 mb-0"><a style="text-decoration:none" href="tel:+ 316 51241861"><i class="fa fa-phone" aria-hidden="true"></i> 06 51 24 18 61</a></p>
           </div>
 
-
-          <!-- <b-collapse is-nav id="nav_collapse">
-            <b-nav is-nav-bar class="ml-auto">
-              <b-nav-item-dropdown text="<h4>Menu</h4>" class="" right>
-                <h4><nuxt-link class="ml-3 mr-3 mt-2 mb-2" to="/werkwijze">Werkwijze</nuxt-link></h4>
-                <h4><nuxt-link class="ml-3 mr-3 mt-2 mb-2" to="/aanbod">Aanbod</nuxt-link></h4>
-                <h4><nuxt-link class="ml-3 mr-3 mt-2 mb-2" to="/referenties">Referenties</nuxt-link></h4>
-                <h4><nuxt-link class="ml-3 mr-3 mt-2 mb-2" to="/about">Rene Dagevos</nuxt-link></h4>
-                <h4><nuxt-link class="ml-3 mr-3 mt-2 mb-0" to="/contact">Contact</nuxt-link></h4>
-              </b-nav-item-dropdown>
-            </b-nav>
-          </b-collapse> -->
-        <!-- </b-navbar> -->
 
       </div>
 
@@ -55,11 +45,20 @@
 
             <b-collapse is-nav id="nav_collapse1">
               <b-nav is-nav-bar class="ml-auto mt-5 pt-5">
-                <nuxt-link class="nav-link" to="/aanbod">Aanbod</nuxt-link>
+                <!-- <nuxt-link class="nav-link" to="/aanbod">Aanbod</nuxt-link>
                 <nuxt-link class="nav-link" to="/werkwijze">Werkwijze</nuxt-link>
                 <nuxt-link class="nav-link" to="/referenties">Referenties</nuxt-link>
                 <nuxt-link class="nav-link" to="/about">Rene Dagevos</nuxt-link>
-                <nuxt-link class="nav-link" :to="{ path: '/',hash:'contact'}">Contact</nuxt-link>
+                <nuxt-link class="nav-link" :to="{ path: '/',hash:'contact'}">Contact</nuxt-link> -->
+
+                <nuxt-link class="nav-link" to="/leiderschapscoaching">Individuele leiderschapscoaching</nuxt-link>
+                <nuxt-link class="nav-link" to="/teamcoaching">Teamcoaching</nuxt-link>
+                <nuxt-link class="nav-link" to="/leiderschapstrajecten">Leiderschapstrajecten</nuxt-link>
+                <nuxt-link class="nav-link" to="/visie">Visie</nuxt-link>
+                <nuxt-link class="nav-link" to="/ervaringen">Ervaringen</nuxt-link>
+                <nuxt-link class="nav-link" to="/rene">René Dagevos</nuxt-link>
+                <a  class="nav-link" style="text-decoration:none" href="tel:+ 316 51241861"><i class="fa fa-phone" aria-hidden="true"></i> + 316 51241861</a>
+
 
               </b-nav>
             </b-collapse>
@@ -92,11 +91,19 @@
 
                 <b-collapse is-nav id="nav_collapse2" style="">
                   <b-nav is-nav-bar class="ml-auto">
-                    <nuxt-link class="nav-link" to="/aanbod">Aanbod</nuxt-link>
+                    <!-- <nuxt-link class="nav-link" to="/aanbod">Aanbod</nuxt-link>
                     <nuxt-link class="nav-link" to="/werkwijze">Werkwijze</nuxt-link>
                     <nuxt-link class="nav-link" to="/referenties">Referenties</nuxt-link>
                     <nuxt-link class="nav-link" to="/about">Rene Dagevos</nuxt-link>
-                    <nuxt-link class="nav-link" :to="{ path: '/',hash:'contact'}">Contact</nuxt-link>
+                    <nuxt-link class="nav-link" :to="{ path: '/',hash:'contact'}">Contact</nuxt-link> -->
+
+                    <nuxt-link class="nav-link" to="/leiderschapscoaching">Individuele leiderschapscoaching</nuxt-link>
+                    <nuxt-link class="nav-link" to="/teamcoaching">Teamcoaching</nuxt-link>
+                    <nuxt-link class="nav-link" to="/leiderschapstrajecten">Leiderschapstrajecten</nuxt-link>
+                    <nuxt-link class="nav-link" to="/visie">Visie</nuxt-link>
+                    <nuxt-link class="nav-link" to="/ervaringen">Ervaringen</nuxt-link>
+                    <nuxt-link class="nav-link" to="/rene">René Dagevos</nuxt-link>
+                    <a  class="nav-link" style="text-decoration:none" href="tel:+ 316 51241861"><i class="fa fa-phone" aria-hidden="true"></i> + 316 51241861</a>
 
                   </b-nav>
                 </b-collapse>
@@ -168,6 +175,13 @@ export default {
 #dagevosHeader {
 
     font-family: 'Coolvetica Rg' !important;
+
+    h4 {
+        font-family: 'Aileron' !important;
+        font-weight: 200;
+        font-size: 25px !important;
+    }
+
     #logo {
         img {
             max-width: 100%;

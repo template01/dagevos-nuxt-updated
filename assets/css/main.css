@@ -130,7 +130,7 @@ li {
 
 
 p.smallText {
-  font-size: 17px;
+  font-size: 18px;
   font-weight: normal !important;
   line-height: 1.55;
 }
@@ -151,6 +151,10 @@ a {
   color: #552E87 !important;
 }
 
+.nuxt-link-exact-active{
+  text-decoration: underline;
+}
+
 .container {
   width: 100% !important;
 }
@@ -159,23 +163,6 @@ a {
   color: grey
 }
 
-
-
-
-.buttonBlue, .buttonBlueNoAnimate{
-  background: #5DA6E8;
-  color: white;
-  transition: all .5s;
-  cursor: pointer;
-}
-.buttonBlue:hover{
-  transform: translateX(15px);
-}
-
-.buttonBlue a{
-  color: white !important;
-
-}
 
 .greyBackground{
   background-color:  #F6FBFF;
@@ -325,7 +312,7 @@ a {
 
 .index-full-cover {
   /*background: url('~/content/img/FIRST_Rotterdam_Kantoren_uitzicht2.jpg') no-repeat center center fixed;*/
-  background-position: center center;
+  background-position: center top;
   background-repeat: no-repeat;
   background-attachment: fixed;
   -webkit-background-size: cover;

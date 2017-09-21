@@ -1,17 +1,4 @@
 {
-  "referenties1": {
-    "left": {
-      "title": "Referenties",
-      "content": "<p>Sinds 2003 begeleidt Het Echte Werkt! coachingstrajecten voor individuen en teams. Centraal uitgangspunt is dat ieder mens uniek is en potentieel heeft en tot meer in staat is dan dikwijls wordt verondersteld. Met humor en begrip, maar zonder de confrontatie te schuwen daagt het Echte Werkt! je uit om dichter bij de kern te komen. Dit leidt tot meer eigenheid en daadkracht. Daarbij krijg je niet alleen nieuwe kennis die direct in de praktijk toepasbaar is, je maakt tevens een stap voorwaarts om op persoonlijk en functioneel vlak steeds meer jezelf te zijn. Hoe dat in de praktijk echt werkt? </p><p>Lees er meer over in onderstaande persoonlijke verhalen van mensen die gecoacht zijn of gecoacht worden door Het Echte Werkt! </p>",
-      "imgpath": ""
-    },
-    "right": {
-      "title": "",
-      "content": "",
-      "imgpath": "/content/img/IMG_20170728_145258_CROP2.jpg"
-    }
-
-  },
   "referenties": [{
       "name": "René van Gils",
       "function":"Directeur Verkoop - AEGON Bank",
@@ -60,6 +47,14 @@
       "blurb": "'René had de no-nonsense benadering die precies bij me paste.'",
       "content": "<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut Ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut</p><p>Ipsum dolor sit amet Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi utUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut</p>"
     }
+  ],
+  "referenties_alt": [{
+      "name": "René Dagevos",
+      "function":"",
+      "blurb": "“Het persoonlijke contact en de intensiteit van leiderschapscoaching zorgt voor resultaat dat beklijft. Het is fascinerend om deze reis te maken met inzet van mijn ervaring, expertise en enthousiasme om samen met de ander te ontdekken wat echt werkt!”",
+      "content": ""
+    }
   ]
+
 
 }

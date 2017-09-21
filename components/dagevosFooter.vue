@@ -1,15 +1,17 @@
 <template>
-<div id="dagevosFooter" class="container  px-5 pt-mobile">
+<div id="dagevosFooter" class="container  px-5 pt-mobile greyBackground">
 
   <div class="row">
     <div class="col-sm-6">
       <div class="p-5">
         <div class="">
 
-          <p class="grey smallText">
+          <p class=" ">
             <i class="fa fa-phone" aria-hidden="true" style="position:absolute; margin-top:4px; "></i> <span class="pl-4">06 51 24 18 61</span>
             <br /><i class="fa fa-envelope-o" aria-hidden="true" style="position:absolute; margin-top:4px; "></i> <span class="pl-4">rene@hetechtewerkt.nl</span>
-            <br /><i class="fa fa-copyright" aria-hidden="true" style="position:absolute; margin-top:4px;"></i> <span class="pl-4">Het Echte Werkt! | Leiderschapsontwikkeling</span>
+            <br /><i class="fa fa-linkedin" aria-hidden="true" style="position:absolute; margin-top:4px; "></i> <span class="pl-4">https://www.linkedin.com/in/renedagevos/</span>
+            <br /><i class="fa fa-heart-o" aria-hidden="true" style="position:absolute; margin-top:4px; "></i> <span class="pl-4"> Website door
+            <nuxt-link to="http://template01.info">Template</nuxt-link></span>
           </p>
           <!-- <nuxt-link to="#" class="btn btn-primary">Go somewhere</nuxt-link> -->
         </div>
@@ -21,8 +23,12 @@
       <div class="p-5">
         <div class="">
 
-          <p class="grey smallText">KvK 244.832.51<br />BTW NL 14.34.76.130.801
-            <br /><i class="fa fa-heart-o" aria-hidden="true"></i> Website door <nuxt-link to="http://template01.info">Template</nuxt-link>
+
+
+          <p class=" ">
+            Het Echte Werkt! | Leiderschapsontwikkeling<br /> De Fabriek van Delfshaven<br /> Mathenesserdijk 416-J<br /> 3026 GV Rotterdam
+
+
           </p>
           <!-- <nuxt-link to="#" class="btn btn-primary">Go somewhere</nuxt-link> -->
         </div>

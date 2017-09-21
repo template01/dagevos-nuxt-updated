@@ -1,16 +1,4 @@
 {
-  "wie": {
-    "left": {
-      "title": "Doelgroep",
-      "content": "<p>Het Echte Werkt! werkt samen met ambitieuze, hoger opgeleide en zich snel ontwikkelende managers en professionals. Deze doelgroep wil zelf echt aan de slag met hun eigen professionele en persoonlijke ontwikkeling. En met de gezamenlijke ontwikkeling van een groep mensen als het een team betreft.</p><p>Coaching is  waardevol als je serieus bezig bent met de invulling en vormgeving van je professionele loopbaan en van je persoonlijke leven. De behoefte aan coaching kan sterker zijn als je geconfronteerd wordt met één of meer van de volgende situaties:</p>",
-      "imgpath": ""
-    },
-    "right": {
-      "title": "",
-      "content": "<ul><li>Grote veranderingen in werk of privé</li><li>Omgaan met weerstand</li><li>Volgende stap in je loopbaan</li><li>Ontwikkeling van nieuwe vaardigheden</li><li>Leren leidinggeven</li><li>Werken onder grote tijdsdruk</li><li>Werken aan veranderingstrajecten met grote risico’s</li><li>Werken in een politiek krachtenveld</li><li>Omgaan met disfunctionerende medewerkers</li></ul><p>Het Echte Werkt! heeft ruime ervaring met coachingstrajecten waarbij deze situaties een rol spelen. Coaching via Het Echte Werkt! biedt structuur, methodieken en ervaring om jouw leerproces in goede banen te leiden.</p>",
-      "imgpath": ""
-    }
-  },
   "opdrachtgevers": [{
       "name": "",
       "url": "",
@@ -81,5 +69,4 @@
       "imgpath": "/content/logos/logo_maersk.svg"
     }
   ]
-
 }

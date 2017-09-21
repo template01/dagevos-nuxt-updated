@@ -5,17 +5,15 @@
       <div class="card-block">
         <div class="row">
           <div class="">
-            <h6 class="card-title float-left mr-3">Referentie</h6>
-            <!-- <h6 class="card-text mr-3 float-left" v-html="referenties[selectRandomReferentie()].name"></h6> -->
-            <!-- <h6 class="card-text float-left" v-html="referenties[selectRandomReferentie()].function"></h6> -->
+            <h6 v-if="!referentiesalt" class="card-title float-left mr-3">Referentie</h6>
           </div>
         </div>
         <div class="row mb-3">
-          <h1 class="card-text" v-html="referenties[selectRandomReferentie()].blurb"></h1>
+          <h1 class="card-text" v-html="!isNaN(referentiesspecific) ? referenties[referentiesspecific].blurb : referenties[selectRandomReferentie()].blurb"></h1>
         </div>
-        <div class="row">
-            <p class="card-text mr-3 " style="margin-bottom:0" v-html="referenties[selectRandomReferentie()].name"></p>
-            <p class="card-text" style="margin-bottom:0" v-html="referenties[selectRandomReferentie()].function"></p>
+        <div class="row pt-2">
+            <p class="card-text mr-3 " style="margin-bottom:0" v-html="!isNaN(referentiesspecific) ? referenties[referentiesspecific].name :  referenties[selectRandomReferentie()].name"></p>
+            <p class="card-text" style="margin-bottom:0" v-html="!isNaN(referentiesspecific) ? referenties[referentiesspecific].function :  referenties[selectRandomReferentie()].function"></p>
         </div>
       </div>
     </div>
@@ -34,7 +32,7 @@ export default {
       show: false
     }
   },
-  props: ['personFunction', 'name', 'blurb', 'referenties'],
+  props: ['personFunction', 'name', 'blurb', 'referenties','referentiesalt','referentiesspecific'],
   methods: {
     selectRandomReferentie: function(){
       return Math.floor(Math.random() * this.referenties.length)

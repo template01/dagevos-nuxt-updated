@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
+
 import dagevosHeader from '~/components/dagevosHeader.vue'
 import dagevosIndex from '~/components/dagevosIndex.vue'
 import dagevosFooter from '~/components/dagevosFooter.vue'
@@ -22,7 +22,7 @@ import axios from 'axios'
 
 export default {
   components: {
-    Logo,
+
     dagevosHeader,
     dagevosIndex,
     dagevosFooter
