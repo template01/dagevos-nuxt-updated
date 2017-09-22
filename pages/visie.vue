@@ -47,7 +47,7 @@
           <div class="col-sm-6 pb-mobile">
             <div class="p-5">
               <div class="">
-                <img style="max-width:100%;" class="" :src="mainContent.section_3.left.imgpath" alt="" />
+                <img style="max-width:100%;" :class="mainContent.section_3.left.imgillustration ? 'illustration' :''" :src="mainContent.section_3.left.imgpath" alt="" />
               </div>
             </div>
           </div>

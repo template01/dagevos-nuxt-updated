@@ -24,7 +24,7 @@
           <div class="">
             <h4 class="mb-5" v-html="indexIndexProp.section_2.left.title"></h4>
             <div class="" v-html="indexIndexProp.section_2.left.content"></div>
-              <nuxt-link class="float-right mt-2 mb-5" to="/werkwijze" v-html="indexIndexProp.section_2.left.button+' <i class=\'fa fa-hand-o-right\' aria-hidden=\'true\'></i>'"></nuxt-link>
+              <nuxt-link class="float-right mt-2 mb-5" :to="indexIndexProp.section_2.left.button.link" v-html="indexIndexProp.section_2.left.button.content+' <i class=\'fa fa-hand-o-right\' aria-hidden=\'true\'></i>'"></nuxt-link>
           </div>
         </div>
       </div>
@@ -49,7 +49,7 @@
       <div class="col-sm-6 pb-mobile">
         <div class="p-5">
           <div class="">
-            <img style="max-width:100%;" class="" :src="indexIndexProp.section_3.left.imgpath" alt="" />
+            <img style="max-width:100%;" :class="indexIndexProp.section_3.left.imgillustration ? 'illustration' :''" :src="indexIndexProp.section_3.left.imgpath" alt="" />
           </div>
         </div>
       </div>
@@ -59,7 +59,7 @@
         <div class="p-5">
           <div class="">
             <h4 class="mb-5" v-html="indexIndexProp.section_3.right.title"></h4>
-              <nuxt-link class="float-right mt-2 mb-5" to="/werkwijze" v-html="indexIndexProp.section_3.right.button+' <i class=\'fa fa-hand-o-right\' aria-hidden=\'true\'></i>'"></nuxt-link>
+              <nuxt-link class="float-right mt-2 mb-5" :to="indexIndexProp.section_3.right.button.link" v-html="indexIndexProp.section_3.right.button.content+' <i class=\'fa fa-hand-o-right\' aria-hidden=\'true\'></i>'"></nuxt-link>
           </div>
         </div>
       </div>
@@ -93,7 +93,7 @@
           <div class="">
             <h4 class="mb-5" v-html="indexIndexProp.section_5.left.title"></h4>
             <div class="" v-html="indexIndexProp.section_5.left.content"></div>
-              <nuxt-link class="float-right mt-2 mb-5" to="/werkwijze" v-html="indexIndexProp.section_5.left.button+' <i class=\'fa fa-hand-o-right\' aria-hidden=\'true\'></i>'"></nuxt-link>
+              <nuxt-link class="float-right mt-2 mb-5" :to="indexIndexProp.section_5.left.button.link" v-html="indexIndexProp.section_5.left.button.content+' <i class=\'fa fa-hand-o-right\' aria-hidden=\'true\'></i>'"></nuxt-link>
           </div>
         </div>
       </div>
@@ -135,7 +135,7 @@
           <div class="">
             <h4 class="mb-5" v-html="indexIndexProp.section_6.right.title"></h4>
             <div class="" v-html="indexIndexProp.section_6.right.content"></div>
-              <nuxt-link class="float-right mt-2 mb-5" to="/werkwijze" v-html="indexIndexProp.section_6.right.button+' <i class=\'fa fa-hand-o-right\' aria-hidden=\'true\'></i>'"></nuxt-link>
+              <nuxt-link class="float-right mt-2 mb-5" :to="indexIndexProp.section_6.right.button.link" v-html="indexIndexProp.section_6.right.button.content+' <i class=\'fa fa-hand-o-right\' aria-hidden=\'true\'></i>'"></nuxt-link>
           </div>
         </div>
       </div>
